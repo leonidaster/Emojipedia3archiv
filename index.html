@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Emojipedia</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="left-panel">
+            <nav class="emoji-nav">
+                <button class="nav-item active">🕓</button>
+                <button class="nav-item">😀</button>
+                <button class="nav-item">🐹</button>
+                <button class="nav-item">☕</button>
+                <button class="nav-item">⚽</button>
+                <button class="nav-item">🚘</button>
+                <button class="nav-item">💡</button>
+                <button class="nav-item">#️</button>
+                <button class="nav-item">🚩</button>
+            </nav>
+            <div class="search-container">
+                <input type="text" id="searchInput" placeholder="Buscar emoji" />
+            </div>
+            <div class="emoji-categories">
+                <div class="category">
+                    <h3>Usados frecuentemente</h3>
+                    <div class="emoji-grid" id="recentEmojis"></div>
+                </div>
+                <div class="category">
+                    <h3>Emoticonos y personas</h3>
+                    <div class="emoji-grid" id="peopleEmojis"></div>
+                </div>
+                <!-- Additional categories will be populated by JavaScript -->
+            </div>
+        </div>
+        <div class="right-panel">
+            <div class="emoji-display">
+                <div class="selected-emoji">😂</div>
+                <button class="copy-button">
+                    <span class="copy-icon">📋</span>
+                    Copiar
+                </button>
+                <h2 class="emoji-name">Cara con lágrimas de alegría</h2>
+                <p class="emoji-description">
+                    Una cara amarilla con una sonrisa abierta y lágrimas de felicidad. 
+                    Expresa que algo es tan gracioso que te hace llorar de risa.
+                </p>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
