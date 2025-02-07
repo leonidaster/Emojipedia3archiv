@@ -7,8 +7,82 @@ const emojiData = {
         },
         people: {
             title: "Emoticonos y personas",
-            emojis: ["😀", "😃", "😄", "😁", "😅", "😂", "🤣", "😊", "😇", "🙂", "🙃", "😉"],
+            emojis: ["😀", "😃", "😄", "😁", "😅", "😂", "🤣", "😊", "😇", "🙂", "🙃", "😉", "😌", "😍", "🥰", "😘", "😗", "😙", "😚", "😋", "😛", "😝", "😜", "🤪", "🤨", "🧐", "🤓", "😎", "🥸", "🤩", "🥳", "😏", "😒", "😞", "😔", "😟", "😕", "🙁", "☹️", "😣", "😖", "😫", "😩", "🥺", "😢", "😭", "😤", "😠", "😡", "🤬", "🤯"],
             keywords: {
+                "😀": {
+                    name: "Cara sonriente",
+                    description: "Una cara amarilla con ojos abiertos y una amplia sonrisa mostrando los dientes. Expresa genuina felicidad y emociones positivas.",
+                    synonyms: [
+                        "sonrisa", "feliz", "contento", "alegre", "radiante",
+                        "dichoso", "jubiloso", "animado", "satisfecho", "optimista",
+                        // Regionalismos
+                        "chévere", "copado", "guay", "chido", "bacán",
+                        // Términos coloquiales
+                        "de buen rollo", "al tope", "a tope", "contentísimo"
+                    ]
+                },
+                "😃": {
+                    name: "Cara sonriente con ojos grandes",
+                    description: "Una cara amarilla con ojos muy abiertos y una gran sonrisa mostrando los dientes. Transmite entusiasmo y emoción intensa.",
+                    synonyms: [
+                        "emocionado", "entusiasmado", "ilusionado", "exaltado", "eufórico",
+                        "radiante", "felicísimo", "contentísimo", "alegre", "animado",
+                        // Regionalismos
+                        "prendido", "enchufado", "pilas", "al palo", "a full",
+                        // Términos coloquiales
+                        "flipando", "a tope", "super feliz", "contentazo"
+                    ]
+                },
+                "😄": {
+                    name: "Cara sonriente con ojos sonrientes",
+                    description: "Una cara amarilla con ojos en forma de arco y amplia sonrisa mostrando los dientes. Representa una felicidad genuina que se refleja tanto en la boca como en los ojos.",
+                    synonyms: [
+                        "risueño", "jovial", "radiante", "dichoso", "contento",
+                        "feliz", "sonriente", "alegre", "animado", "gozoso",
+                        // Regionalismos
+                        "chocho", "contentazo", "pleno", "felicidoso", "requetefeliz",
+                        // Términos coloquiales
+                        "de gusto", "que no cabe en sí", "que revienta de felicidad"
+                    ]
+                },
+                "😁": {
+                    name: "Cara radiante con ojos sonrientes",
+                    description: "Una cara amarilla con ojos en forma de arco y sonrisa grande mostrando los dientes. Expresa orgullo, satisfacción o confianza en sí mismo.",
+                    synonyms: [
+                        // Características físicas
+                        "sonrisa con dientes", "ojos felices", "sonrisa grande",
+                        "cara radiante", "ojos en media luna", "dientes blancos",
+                        "sonrisa amplia", "cara alegre",
+                        // Estados emocionales
+                        "feliz", "contento", "radiante", "alegre", "dichoso",
+                        "entusiasmado", "emocionado", "encantado", "jubiloso",
+                        // Regionalismos
+                        "contentísimo", "felicísimo", "chocho", "pleno",
+                        // Términos coloquiales
+                        "más feliz que unas pascuas", "que no cabe en sí de gozo",
+                        // Elementos visuales
+                        "emoji sonriente", "cara feliz con dientes", "sonrisa brillante"
+                    ]
+                },
+                "😅": {
+                    name: "Cara sonriente con sudor",
+                    description: "Una cara sonriente con una gota de sudor en la frente. Expresa alivio, incomodidad o situación embarazosa.",
+                    synonyms: [
+                        // Características físicas
+                        "gota de sudor", "sudor en la frente", "sonrisa nerviosa",
+                        "cara sudando", "sonrisa incómoda", "gota en la frente",
+                        "cara con sudor", "sonrisa forzada",
+                        // Estados emocionales
+                        "aliviado", "incómodo", "nervioso", "avergonzado", "apurado",
+                        "tenso", "embarazoso", "apurado", "intranquilo",
+                        // Regionalismos
+                        "apenado", "cortado", "abochornado", "azarado",
+                        // Términos coloquiales
+                        "pasando vergüenza", "momento incómodo", "sudando la gota gorda",
+                        // Elementos visuales
+                        "emoji sudando", "cara sonriente con gota", "sonrisa con sudor"
+                    ]
+                },
                 "😂": {
                     name: "Cara con lágrimas de alegría",
                     description: "Una cara amarilla con una sonrisa abierta y lágrimas de felicidad. Expresa que algo es tan gracioso que te hace llorar de risa.",
@@ -17,6 +91,634 @@ const emojiData = {
                         "risas", "humor", "diversión", "chiste", "gracia",
                         "chistoso", "cómico", "buenísimo", "morirse de risa",
                         "partirse", "troncharse", "desternillarse", "reventarse"
+                    ]
+                },
+                "🤣": {
+                    name: "Rodando de risa",
+                    description: "Una cara amarilla inclinada, riendo tan fuerte que muestra lágrimas de alegría. El emoji está rotado para sugerir que la persona está literalmente 'rodando de risa'.",
+                    synonyms: [
+                        "morirse de risa", "llorar de risa", "reventarse", "desternillarse",
+                        "partirse", "troncharse", "carcajada", "risa incontrolable",
+                        // Regionalismos
+                        "cagarse de risa", "mearse de risa", "morirse de la risa",
+                        // Términos coloquiales
+                        "lol", "jajaja", "muerto de risa", "no poder más"
+                    ]
+                },
+                "😊": {
+                    name: "Cara sonriente sonrojada",
+                    description: "Una cara sonriente con ojos sonrientes y mejillas rosadas. Expresa felicidad genuina, calidez, gratitud o timidez.",
+                    synonyms: [
+                        "sonrojado", "tímido", "avergonzado", "halagado", "agradecido",
+                        "ruborizado", "complacido", "modesto", "dulce", "tierno",
+                        // Regionalismos
+                        "apenado", "colorado", "achicopalado", "cortado",
+                        // Términos coloquiales
+                        "todo rojo", "como un tomate", "rojito"
+                    ]
+                },
+                "😇": {
+                    name: "Cara sonriente con halo",
+                    description: "Una cara sonriente con un halo dorado flotando sobre la cabeza. Representa inocencia, bondad o comportamiento angelical.",
+                    synonyms: [
+                        "angelical", "inocente", "santo", "bueno", "puro",
+                        "virtuoso", "angelito", "bendito", "inmaculado", "noble",
+                        // Regionalismos
+                        "santito", "angelote", "bendecido", "pureto",
+                        // Términos coloquiales
+                        "no rompe un plato", "mosquita muerta", "pan de Dios"
+                    ]
+                },
+                "🙂": {
+                    name: "Cara ligeramente sonriente",
+                    description: "Una cara amarilla con una leve sonrisa. Puede expresar amabilidad, pero también se usa para indicar ironía o incomodidad.",
+                    synonyms: [
+                        "amable", "cordial", "simpático", "agradable", "cortés",
+                        "educado", "diplomático", "formal", "correcto", "comedido",
+                        // Regionalismos
+                        "buena onda", "majo", "piola", "chévere",
+                        // Términos coloquiales
+                        "por compromiso", "forzado", "de circunstancias"
+                    ]
+                },
+                "🙃": {
+                    name: "Cara al revés",
+                    description: "Una cara sonriente volteada al revés. Se usa para expresar sarcasmo, ironía o una situación absurda.",
+                    synonyms: [
+                        "irónico", "sarcástico", "absurdo", "bromista", "juguetón",
+                        "burlón", "chistoso", "gracioso", "divertido", "jocoso",
+                        // Regionalismos
+                        "cachondo", "chistoso", "bromista", "vacilón",
+                        // Términos coloquiales
+                        "en plan broma", "de coña", "de broma"
+                    ]
+                },
+                "😉": {
+                    name: "Cara guiñando un ojo",
+                    description: "Una cara amarilla guiñando un ojo y con una leve sonrisa. Sugiere complicidad, broma o coqueteo.",
+                    synonyms: [
+                        "guiño", "coqueto", "pícaro", "cómplice", "travieso",
+                        "juguetón", "bromista", "insinuante", "sugerente", "seductor",
+                        // Regionalismos
+                        "pillín", "pillo", "picarón", "tunante",
+                        // Términos coloquiales
+                        "en plan ligue", "tirando la caña", "dando cuerda"
+                    ]
+                },
+                "😌": {
+                    name: "Cara aliviada",
+                    description: "Una cara serena con ojos cerrados y leve sonrisa. Expresa alivio, satisfacción o paz interior.",
+                    synonyms: [
+                        "aliviado", "tranquilo", "relajado", "sereno", "calmado",
+                        "sosegado", "pacífico", "satisfecho", "contento", "plácido",
+                        // Regionalismos
+                        "chido", "tranqui", "relajado", "pancho",
+                        // Términos coloquiales
+                        "en paz", "a gusto", "sin estrés"
+                    ]
+                },
+                "😍": {
+                    name: "Cara sonriente con ojos de corazón",
+                    description: "Una cara sonriente con ojos en forma de corazón. Expresa amor intenso, admiración o encanto por algo o alguien.",
+                    synonyms: [
+                        "enamorado", "encantado", "fascinado", "cautivado", "embelesado",
+                        "ilusionado", "maravillado", "embobado", "prendado", "atraído",
+                        // Regionalismos
+                        "enganchado", "pillado", "flechado", "colado",
+                        // Términos coloquiales
+                        "loco por", "muerto de amor", "derretido"
+                    ]
+                },
+                "🥰": {
+                    name: "Cara sonriente con corazones",
+                    description: "Una cara sonriente rodeada de corazones flotantes. Expresa adoración, gratitud o un sentimiento de amor y aprecio.",
+                    synonyms: [
+                        "adorable", "amoroso", "cariñoso", "tierno", "dulce",
+                        "afectuoso", "mimoso", "romántico", "apreciado", "querido",
+                        // Regionalismos
+                        "apapacho", "mimado", "consentido", "regalón",
+                        // Términos coloquiales
+                        "lleno de amor", "derramando amor", "todo corazones"
+                    ]
+                },
+                "😘": {
+                    name: "Cara lanzando un beso",
+                    description: "Una cara guiñando un ojo y lanzando un beso con un corazón. Expresa afecto, cariño o agradecimiento.",
+                    synonyms: [
+                        "beso", "cariño", "afecto", "amor", "besito",
+                        "muak", "abrazo", "ternura", "aprecio", "gratitud",
+                        // Regionalismos
+                        "besote", "piquito", "beshito", "chucho",
+                        // Términos coloquiales
+                        "te mando un beso", "besitos", "muacks"
+                    ]
+                },
+                "😗": {
+                    name: "Cara besando",
+                    description: "Una cara amarilla con ojos abiertos y labios fruncidos en posición de beso. Expresa un beso amistoso o cariñoso.",
+                    synonyms: [
+                        "beso", "besando", "besito", "cariño", "afecto",
+                        "mimo", "ternura", "cariñoso", "dulce", "amistoso",
+                        // Regionalismos
+                        "piquito", "beshito", "mua", "muah",
+                        // Términos coloquiales
+                        "dar un beso", "tirar un beso", "beso volado"
+                    ]
+                },
+                "😙": {
+                    name: "Cara besando con ojos sonrientes",
+                    description: "Una cara amarilla con ojos sonrientes y labios fruncidos en posición de beso. Expresa felicidad y afecto al mismo tiempo.",
+                    synonyms: [
+                        "beso feliz", "beso alegre", "beso cariñoso", "beso dulce", "beso tierno",
+                        "cariñoso", "afectuoso", "amoroso", "dulce", "tierno",
+                        // Regionalismos
+                        "besito dulce", "beso contento", "beso de amor", "besito feliz",
+                        // Términos coloquiales
+                        "beso con amor", "beso con cariño", "beso sonriente"
+                    ]
+                },
+                "😚": {
+                    name: "Cara besando con ojos cerrados",
+                    description: "Una cara amarilla con ojos cerrados y labios fruncidos en posición de beso. Expresa timidez o ternura al dar un beso.",
+                    synonyms: [
+                        "beso tímido", "beso tierno", "beso dulce", "beso suave", "beso romántico",
+                        "tímido", "vergonzoso", "dulce", "tierno", "romántico",
+                        // Regionalismos
+                        "besito tímido", "beso cortado", "beso penoso", "besito de amor",
+                        // Términos coloquiales
+                        "beso con pena", "beso inocente", "beso tímido"
+                    ]
+                },
+                "😋": {
+                    name: "Cara saboreando comida",
+                    description: "Una cara sonriente con ojos cerrados y lengua afuera, saboreando algo delicioso. Expresa deleite por comida o algo que gusta mucho.",
+                    synonyms: [
+                        "delicioso", "sabroso", "rico", "hambre", "antojo",
+                        "glotonería", "apetito", "gusto", "sabor", "deleite",
+                        // Regionalismos
+                        "manjar", "riquísimo", "buenísimo", "exquisito",
+                        // Términos coloquiales
+                        "se me hace agua la boca", "me relamo", "qué rico"
+                    ]
+                },
+                "😛": {
+                    name: "Cara con lengua afuera",
+                    description: "Una cara con ojos abiertos y lengua afuera. Puede expresar juego, broma o travesura.",
+                    synonyms: [
+                        "travieso", "juguetón", "bromista", "burlón", "pícaro",
+                        "gracioso", "divertido", "chistoso", "juego", "broma",
+                        // Regionalismos
+                        "payaso", "vacilón", "cachondo", "chistoso",
+                        // Términos coloquiales
+                        "haciendo mofa", "en broma", "de juego"
+                    ]
+                },
+                "😝": {
+                    name: "Cara con lengua afuera y ojos cerrados",
+                    description: "Una cara con la lengua sacada y los ojos fuertemente cerrados. Expresa broma, juego o sabor intenso.",
+                    synonyms: [
+                        // Características físicas
+                        "lengua fuera ojos cerrados", "ojos apretados", "lengua sacada",
+                        "cara con lengua y ojos cerrados", "expresión juguetona",
+                        "gesto travieso", "ojos cerrados lengua fuera",
+                        // Estados emocionales
+                        "juguetón", "bromista", "gracioso", "divertido", "travieso",
+                        "pícaro", "chistoso", "burlón", "alegre",
+                        // Regionalismos
+                        "payaso", "bufón", "chancero", "guasón",
+                        // Términos coloquiales
+                        "haciendo el tonto", "de coña", "en broma",
+                        // Elementos visuales
+                        "emoji ojos cerrados lengua", "cara juguetona", "gesto bromista"
+                    ]
+                },
+                "😜": {
+                    name: "Cara guiñando con lengua afuera",
+                    description: "Una cara guiñando un ojo y sacando la lengua. Sugiere broma, diversión o no tomar algo en serio.",
+                    synonyms: [
+                        "bromista", "juguetón", "travieso", "pícaro", "chistoso",
+                        "divertido", "gracioso", "burlón", "juego", "diversión",
+                        // Regionalismos
+                        "vacilón", "cachondo", "chistoso", "payaso",
+                        // Términos coloquiales
+                        "de broma", "en plan", "de coña"
+                    ]
+                },
+                "🤪": {
+                    name: "Cara loca",
+                    description: "Una cara con ojos desalineados y lengua afuera. Expresa locura, diversión extrema o comportamiento alocado.",
+                    synonyms: [
+                        "loco", "alocado", "chiflado", "disparatado", "divertido",
+                        "desquiciado", "demente", "gracioso", "excéntrico", "extravagante",
+                        // Regionalismos
+                        "chalado", "pirado", "zafado", "tarumba",
+                        // Términos coloquiales
+                        "estar como una cabra", "estar del coco", "estar zumbado"
+                    ]
+                },
+                "🤨": {
+                    name: "Cara con ceja levantada",
+                    description: "Una cara con una ceja levantada. Expresa escepticismo, desconfianza o no estar convencido de algo.",
+                    synonyms: [
+                        "escéptico", "dudoso", "desconfiado", "incrédulo", "suspicaz",
+                        "receloso", "cauteloso", "sospechoso", "dubitativo", "cuestionador",
+                        // Regionalismos
+                        "mosqueado", "malicioso", "desconfiado", "receloso",
+                        // Términos coloquiales
+                        "no me la creo", "algo no cuadra", "mmm..."
+                    ]
+                },
+                "🧐": {
+                    name: "Cara con monóculo",
+                    description: "Una cara con monóculo y ceja levantada. Sugiere sofisticación, análisis detallado o curiosidad intelectual.",
+                    synonyms: [
+                        "sofisticado", "elegante", "intelectual", "refinado", "culto",
+                        "analítico", "observador", "curioso", "detallista", "perspicaz",
+                        // Regionalismos
+                        "pijo", "fino", "distinguido", "letrado",
+                        // Términos coloquiales
+                        "sabiondo", "intelectualoide", "erudito"
+                    ]
+                },
+                "🤓": {
+                    name: "Cara de nerd",
+                    description: "Una cara sonriente con gafas gruesas de marco negro. Representa inteligencia, estudio o comportamiento 'nerd'.",
+                    synonyms: [
+                        // Características físicas
+                        "gafas gruesas", "lentes grandes", "anteojos de pasta",
+                        "gafas de marco negro", "lentes redondos", "gafas de empollón",
+                        "cara con gafas grandes", "anteojos gruesos",
+                        // Personalidad y estereotipos
+                        "nerd", "estudioso", "inteligente", "empollón", "cerebrito",
+                        "académico", "aplicado", "estudiantil", "listillo",
+                        // Regionalismos
+                        "traga", "matado", "chancón", "cerebro", "gafufo",
+                        // Términos coloquiales
+                        "come libros", "sabelotodo", "cuatro ojos",
+                        // Elementos visuales
+                        "gafas negras gruesas", "cara sonriente con anteojos", "emoji con lentes grandes"
+                    ]
+                },
+                "😎": {
+                    name: "Cara sonriente con gafas de sol",
+                    description: "Una cara sonriente con gafas de sol oscuras. Expresa actitud cool, confianza o tranquilidad.",
+                    synonyms: [
+                        // Características físicas
+                        "gafas de sol", "lentes oscuros", "lentes negros", "gafas negras",
+                        "sonrisa con gafas", "cara con lentes", "anteojos oscuros",
+                        // Actitud y expresión
+                        "cool", "genial", "guay", "tranquilo", "relajado",
+                        "confiado", "seguro", "chulo", "estiloso", "moderno",
+                        // Regionalismos
+                        "chévere", "bacán", "padre", "copado", "anteojos de sol",
+                        // Términos coloquiales
+                        "a todo dar", "de película", "lo máximo",
+                        // Elementos visuales
+                        "gafas negras", "cara amarilla con gafas", "emoji con lentes"
+                    ]
+                },
+                "🥸": {
+                    name: "Cara disfrazada",
+                    description: "Una cara con gafas, cejas pobladas, bigote y nariz falsa. Representa un disfraz obvio o intento de pasar desapercibido.",
+                    synonyms: [
+                        "disfrazado", "incógnito", "encubierto", "oculto", "camuflado",
+                        "disimulado", "secreto", "misterioso", "anónimo", "escondido",
+                        // Regionalismos
+                        "tapado", "embozado", "encapuchado", "enmascarado",
+                        // Términos coloquiales
+                        "de incógnito", "de tapadillo", "a escondidas"
+                    ]
+                },
+                "🤩": {
+                    name: "Cara maravillada con estrellas",
+                    description: "Una cara sonriente con estrellas por ojos. Expresa asombro, admiración o estar deslumbrado por algo o alguien.",
+                    synonyms: [
+                        "maravillado", "asombrado", "deslumbrado", "fascinado", "encantado",
+                        "admirado", "impresionado", "extasiado", "entusiasmado", "alucinado",
+                        // Regionalismos
+                        "flipado", "embobado", "boquiabierto", "pasmado",
+                        // Términos coloquiales
+                        "con estrellas en los ojos", "flipando", "alucinando"
+                    ]
+                },
+                "🥳": {
+                    name: "Cara de fiesta",
+                    description: "Una cara sonriente con un gorro de fiesta y un silbato de fiesta. Representa celebración, fiesta o festejo.",
+                    synonyms: [
+                        "fiesta", "celebración", "festejo", "diversión", "alegría",
+                        "juerga", "pachanga", "celebrando", "festejando", "parrandero",
+                        // Regionalismos
+                        "pachanga", "farra", "parranda", "jolgorio",
+                        // Términos coloquiales
+                        "de fiesta", "de juerga", "de rumba"
+                    ]
+                },
+                "😏": {
+                    name: "Cara sonriente con suficiencia",
+                    description: "Una cara con una sonrisa torcida. Expresa satisfacción, picardía o insinuación.",
+                    synonyms: [
+                        "pícaro", "astuto", "malicioso", "insinuante", "sugerente",
+                        "presumido", "confiado", "sagaz", "ladino", "travieso",
+                        // Regionalismos
+                        "pillín", "vivo", "avispado", "zorro",
+                        // Términos coloquiales
+                        "con segundas", "con doble sentido", "con malicia"
+                    ]
+                },
+                "😒": {
+                    name: "Cara de desagrado",
+                    description: "Una cara con ojos entrecerrados y boca torcida. Expresa descontento, escepticismo o fastidio.",
+                    synonyms: [
+                        "desagrado", "fastidio", "molestia", "disgusto", "descontento",
+                        "hartazgo", "irritación", "enfado", "molesto", "hastiado",
+                        // Regionalismos
+                        "harto", "empalago", "cansado", "aburrido",
+                        // Términos coloquiales
+                        "hasta la coronilla", "qué pesado", "qué fastidio"
+                    ]
+                },
+                "😞": {
+                    name: "Cara decepcionada",
+                    description: "Una cara con ojos y cejas caídas. Expresa decepción, tristeza o pesar.",
+                    synonyms: [
+                        "decepcionado", "triste", "desilusionado", "apenado", "desanimado",
+                        "desalentado", "abatido", "deprimido", "descorazonado", "afligido",
+                        // Regionalismos
+                        "bajoneado", "achicopalado", "agüitado", "desmoralizado",
+                        // Términos coloquiales
+                        "con el ánimo por los suelos", "por los suelos", "sin ánimos"
+                    ]
+                },
+                "😔": {
+                    name: "Cara pensativa",
+                    description: "Una cara con ojos cerrados y expresión pensativa. Expresa reflexión, melancolía o preocupación.",
+                    synonyms: [
+                        "pensativo", "reflexivo", "meditabundo", "melancólico", "contemplativo",
+                        "preocupado", "ensimismado", "absorto", "cabizbajo", "nostálgico",
+                        // Regionalismos
+                        "apachurrado", "acongojado", "pensando", "meditando",
+                        // Términos coloquiales
+                        "en las nubes", "en su mundo", "dándole vueltas"
+                    ]
+                },
+                "😟": {
+                    name: "Cara preocupada",
+                    description: "Una cara con cejas arqueadas hacia arriba y boca hacia abajo. Expresa preocupación, angustia o inquietud.",
+                    synonyms: [
+                        "preocupado", "angustiado", "inquieto", "intranquilo", "ansioso",
+                        "nervioso", "alarmado", "perturbado", "agobiado", "tenso",
+                        // Regionalismos
+                        "afligido", "acongojado", "mortificado", "preocupón",
+                        // Términos coloquiales
+                        "con el pendiente", "con el alma en un hilo", "hecho un manojo de nervios"
+                    ]
+                },
+                "😕": {
+                    name: "Cara confundida",
+                    description: "Una cara con cejas arqueadas y boca torcida. Expresa confusión, duda o perplejidad.",
+                    synonyms: [
+                        "confundido", "perplejo", "desconcertado", "dudoso", "indeciso",
+                        "desorientado", "perdido", "extrañado", "aturdido", "vacilante",
+                        // Regionalismos
+                        "mareado", "enredado", "confuso", "liado",
+                        // Términos coloquiales
+                        "sin enterarse", "no me entero", "estoy perdido"
+                    ]
+                },
+                "🙁": {
+                    name: "Cara ligeramente triste",
+                    description: "Una cara con cejas y boca ligeramente hacia abajo. Expresa leve tristeza o descontento.",
+                    synonyms: [
+                        "triste", "descontento", "desanimado", "apagado", "decaído",
+                        "afligido", "apenado", "desilusionado", "desalentado", "abatido",
+                        // Regionalismos
+                        "achantado", "alicaído", "mustio", "desganado",
+                        // Términos coloquiales
+                        "sin ánimo", "bajoneado", "regular"
+                    ]
+                },
+                "☹️": {
+                    name: "Cara triste",
+                    description: "Una cara con cejas y boca muy hacia abajo. Expresa tristeza profunda o gran descontento.",
+                    synonyms: [
+                        "muy triste", "apenado", "afligido", "desconsolado", "abatido",
+                        "deprimido", "desolado", "acongojado", "apesadumbrado", "entristecido",
+                        // Regionalismos
+                        "agüitado", "amargado", "achicopalado", "compungido",
+                        // Términos coloquiales
+                        "con el corazón roto", "hecho polvo", "destrozado"
+                    ]
+                },
+                "😣": {
+                    name: "Cara perseverante",
+                    description: "Una cara con ojos fuertemente cerrados. Expresa perseverancia, esfuerzo o frustración.",
+                    synonyms: [
+                        "perseverante", "esforzado", "frustrado", "tenaz", "persistente",
+                        "determinado", "empeñado", "obstinado", "luchador", "resistente",
+                        // Regionalismos
+                        "porfiado", "terco", "necio", "testarudo",
+                        // Términos coloquiales
+                        "dale que dale", "no se rinde", "echándole ganas"
+                    ]
+                },
+                "😖": {
+                    name: "Cara confundida y angustiada",
+                    description: "Una cara con ojos cerrados y boca torcida. Expresa confusión extrema, angustia o frustración.",
+                    synonyms: [
+                        "angustiado", "frustrado", "desesperado", "agobiado", "estresado",
+                        "abrumado", "saturado", "sobrepasado", "colapsado", "desbordado",
+                        // Regionalismos
+                        "agobiado", "superado", "reventado", "quemado",
+                        // Términos coloquiales
+                        "hasta arriba", "no puedo más", "saturadísimo"
+                    ]
+                },
+                "😫": {
+                    name: "Cara cansada",
+                    description: "Una cara con ojos cerrados y boca abierta. Expresa cansancio extremo, agotamiento o frustración.",
+                    synonyms: [
+                        // Características físicas
+                        "ojos cerrados", "boca abierta", "cara agotada",
+                        "expresión exhausta", "rostro cansado", "cara con fatiga",
+                        "gesto de cansancio", "cara con sueño",
+                        // Estados físicos y emocionales
+                        "cansado", "agotado", "exhausto", "fatigado", "rendido",
+                        "extenuado", "desgastado", "reventado", "fundido",
+                        // Regionalismos
+                        "molido", "hecho polvo", "destrozado", "acabado",
+                        // Términos coloquiales
+                        "no doy más", "muerto de cansancio", "sin pilas",
+                        // Elementos visuales
+                        "emoji cansado", "cara de agotamiento", "rostro exhausto"
+                    ]
+                },
+                "😩": {
+                    name: "Cara agotada",
+                    description: "Una cara con ojos cerrados y boca abierta en gesto de lamento. Expresa agotamiento físico o emocional.",
+                    synonyms: [
+                        // Características físicas
+                        "ojos cerrados", "boca abierta", "cara agotada",
+                        "expresión de dolor", "gesto angustiado", "cara sufriendo",
+                        "rostro afligido", "expresión de pena",
+                        // Estados emocionales
+                        "agotado", "exhausto", "destrozado", "deshecho", "consumido",
+                        "sin fuerzas", "sin energía", "derrumbado", "desecho", "acabado",
+                        // Regionalismos
+                        "fundido", "reventado", "hecho trizas", "demolido",
+                        // Términos coloquiales
+                        "no puedo más", "sin batería", "en las últimas"
+                    ]
+                },
+                "🥺": {
+                    name: "Cara suplicante",
+                    description: "Una cara con ojos grandes y brillantes, cejas arqueadas hacia arriba. Expresa súplica, ruego o ternura.",
+                    synonyms: [
+                        // Características físicas
+                        "ojos grandes", "ojos brillantes", "cejas arqueadas",
+                        "mirada tierna", "ojos de cachorro", "ojos suplicantes",
+                        "cara con ojos grandes", "mirada dulce",
+                        // Expresiones y emociones
+                        "suplicante", "rogando", "implorando", "tierno", "conmovedor",
+                        "lastimero", "pidiendo", "ruego", "súplica",
+                        // Regionalismos
+                        "ojitos", "carita", "pucheros", "mimoso",
+                        // Términos coloquiales
+                        "ojos de cachorro", "por favor", "carita de pena",
+                        // Elementos visuales
+                        "emoji con ojos grandes", "cara con mirada tierna", "rostro suplicante"
+                    ]
+                },
+                "😢": {
+                    name: "Cara llorando",
+                    description: "Una cara con una lágrima cayendo por la mejilla. Expresa tristeza, pena o dolor emocional.",
+                    synonyms: [
+                        // Características físicas
+                        "lágrima", "gota cayendo", "lágrima en la mejilla",
+                        "cara con lágrima", "ojos llorosos", "mejilla mojada",
+                        "cara amarilla llorando", "lágrima azul",
+                        // Emociones y estados
+                        "llorando", "triste", "apenado", "dolido", "lastimado",
+                        "herido", "afligido", "desconsolado", "acongojado",
+                        // Regionalismos
+                        "lloroso", "lagrimoso", "sollozando", "gimiendo",
+                        // Términos coloquiales
+                        "con el corazón roto", "echo lágrimas", "con pena",
+                        // Elementos visuales
+                        "gota de lágrima", "cara con lágrima azul", "emoji llorando"
+                    ]
+                },
+                "😭": {
+                    name: "Cara llorando fuerte",
+                    description: "Una cara con ojos cerrados y lágrimas fluyendo abundantemente. Expresa llanto intenso o dolor emocional profundo.",
+                    synonyms: [
+                        "llorando fuerte", "sollozando", "desconsolado", "destrozado", "devastado",
+                        "desgarrado", "desolado", "desesperado", "angustiado", "sufriendo",
+                        // Regionalismos
+                        "llorando a mares", "hecho un mar de lágrimas", "desecho",
+                        // Términos coloquiales
+                        "llorando a moco tendido", "hecho un mar de lágrimas", "inconsolable"
+                    ]
+                },
+                "😤": {
+                    name: "Cara con vapor por la nariz",
+                    description: "Una cara con vapor saliendo por la nariz. Expresa frustración, enfado o determinación.",
+                    synonyms: [
+                        // Características físicas
+                        "vapor en la nariz", "humo por la nariz", "resoplando",
+                        "nariz humeante", "cara echando vapor", "nariz con humo",
+                        "rostro con vapor", "cara resoplando",
+                        // Estados emocionales
+                        "frustrado", "enfadado", "molesto", "irritado", "enojado",
+                        "indignado", "furioso", "rabioso", "determinado",
+                        // Regionalismos
+                        "cabreado", "emberracado", "encabronado", "emputado",
+                        // Términos coloquiales
+                        "echando humo", "que echa chispas", "que revienta",
+                        // Elementos visuales
+                        "emoji con vapor", "cara con humo", "rostro echando vapor"
+                    ]
+                },
+                "😠": {
+                    name: "Cara enojada",
+                    description: "Una cara con cejas fruncidas y boca seria. Expresa enojo, molestia o irritación.",
+                    synonyms: [
+                        "enojado", "molesto", "irritado", "enfadado", "furioso",
+                        "disgustado", "indignado", "airado", "cabreado", "malhumorado",
+                        // Regionalismos
+                        "bravo", "emberracado", "encabronado", "emputado",
+                        // Términos coloquiales
+                        "de malas", "mosqueado", "que echa chispas"
+                    ]
+                },
+                "😡": {
+                    name: "Cara enojada roja",
+                    description: "Una cara roja con cejas fruncidas y boca seria. Expresa ira intensa o furia.",
+                    synonyms: [
+                        // Características físicas
+                        "cara roja", "cejas fruncidas", "ceño fruncido", 
+                        "cara enrojecida", "rostro rojo", "cara colorada",
+                        "expresión furiosa", "cara enfadada roja",
+                        // Estados emocionales
+                        "furioso", "iracundo", "colérico", "rabioso", "enfurecido",
+                        "encolerizado", "furibundo", "enfadado", "irritado",
+                        // Regionalismos
+                        "emputecido", "encachimbado", "endemoniado", "encorajinado",
+                        // Términos coloquiales
+                        "echando fuego", "que arde", "que explota",
+                        // Elementos visuales
+                        "emoji rojo", "cara roja de ira", "rostro rojo enfadado"
+                    ]
+                },
+                "🤬": {
+                    name: "Cara maldiciendo",
+                    description: "Una cara roja con símbolos sobre la boca. Expresa ira extrema, maldiciones o palabras fuertes.",
+                    synonyms: [
+                        // Características físicas
+                        "cara roja con símbolos", "boca censurada", "símbolos en boca",
+                        "expresión furiosa", "cara enojada con símbolos",
+                        "rostro enfurecido", "cara roja enfadada",
+                        // Estados emocionales
+                        "furioso", "enfurecido", "iracundo", "encolerizado",
+                        "rabioso", "enfadado", "indignado", "colérico",
+                        // Regionalismos
+                        "emputecido", "cabreado", "encachimbado", "emberracado",
+                        // Términos coloquiales
+                        "echando rayos", "echando pestes", "maldiciendo",
+                        // Elementos visuales
+                        "emoji maldiciendo", "cara con censura", "símbolos de maldición"
+                    ]
+                },
+                "🤯": {
+                    name: "Cara explotando",
+                    description: "Una cara con la parte superior de la cabeza explotando. Expresa asombro extremo, shock o sobrecarga mental.",
+                    synonyms: [
+                        // Características físicas
+                        "cabeza explotando", "explosión en la cabeza", "mente estallando",
+                        "cerebro volando", "cabeza abierta", "explosión mental",
+                        "cara con explosión", "cabeza reventando",
+                        // Estados mentales
+                        "impactado", "asombrado", "atónito", "pasmado", "estupefacto",
+                        "anonadado", "perplejo", "boquiabierto", "alucinado",
+                        // Regionalismos
+                        "flipado", "patidifuso", "turulato", "desconcertado",
+                        // Términos coloquiales
+                        "me explota la cabeza", "sin palabras", "alucinando",
+                        // Elementos visuales
+                        "explosión cerebral", "mente volando", "emoji con explosión"
+                    ]
+                },
+                "😠": {
+                    name: "Cara enojada",
+                    description: "Una cara con cejas fruncidas y expresión de enfado. Expresa enojo o molestia.",
+                    synonyms: [
+                        "enojado", "molesto", "enfadado", "irritado", "disgustado",
+                        "malhumorado", "contrariado", "fastidiado", "indignado",
+                        // Regionalismos
+                        "cabreado", "enojón", "molesto", "bravo",
+                        // Términos coloquiales
+                        "de malas", "mosqueado", "enfurruñado",
+                        // Elementos visuales
+                        "cara enojada", "ceño fruncido", "expresión de enfado"
                     ]
                 }
             }
@@ -59,51 +761,46 @@ let recentEmojis = new Set(emojiData.categories.recent.emojis);
 function normalizeText(text) {
     return text.toLowerCase()
         .normalize("NFD")
-        .replace(/[-]/g, "");
+        .replace(/[\u0300-\u036f]/g, "");
 }
 
 // Inicialización de la interfaz
 function initializeCategories() {
-    const container = document.querySelector('.emoji-categories');
-    
-    Object.entries(emojiData.categories).forEach(([key, category]) => {
-        if (document.getElementById(`${key}Emojis`)) return;
-        
-        const categoryDiv = document.createElement('div');
-        categoryDiv.className = 'category';
-        categoryDiv.innerHTML = `
-            <h3>${category.title}</h3>
-            <div class="emoji-grid" id="${key}Emojis"></div>
-        `;
-        container.appendChild(categoryDiv);
-        
-        const grid = categoryDiv.querySelector('.emoji-grid');
-        category.emojis.forEach(emoji => {
-            const emojiDiv = document.createElement('div');
-            emojiDiv.className = 'emoji-item';
-            emojiDiv.textContent = emoji;
-            emojiDiv.addEventListener('click', () => selectEmoji(emoji));
-            grid.appendChild(emojiDiv);
-        });
+    const peopleEmojisContainer = document.getElementById('peopleEmojis');
+    const recentEmojisContainer = document.getElementById('recentEmojis');
+
+    // Inicializar emojis recientes
+    Array.from(recentEmojis).forEach(emoji => {
+        const emojiElement = createEmojiElement(emoji);
+        recentEmojisContainer.appendChild(emojiElement);
     });
+
+    // Inicializar emojis de personas
+    emojiData.categories.people.emojis.forEach(emoji => {
+        const emojiElement = createEmojiElement(emoji);
+        peopleEmojisContainer.appendChild(emojiElement);
+    });
+}
+
+function createEmojiElement(emoji) {
+    const div = document.createElement('div');
+    div.className = 'emoji-item';
+    div.textContent = emoji;
+    div.setAttribute('role', 'button');
+    div.setAttribute('aria-label', emojiData.categories.people.keywords[emoji]?.name || emoji);
+    div.addEventListener('click', () => selectEmoji(emoji));
+    return div;
 }
 
 // Manejo de emojis
 function selectEmoji(emoji) {
-    // Actualizar panel derecho
-    document.querySelector('.selected-emoji').textContent = emoji;
-    
-    // Obtener datos del emoji
-    const emojiInfo = emojiData.categories.people.keywords[emoji] || {
-        name: "Emoji",
-        description: "Descripción no disponible"
-    };
-    
-    document.querySelector('.emoji-name').textContent = emojiInfo.name;
-    document.querySelector('.emoji-description').textContent = emojiInfo.description;
-    
-    // Actualizar emojis recientes
-    updateRecentEmojis(emoji);
+    const emojiInfo = emojiData.categories.people.keywords[emoji];
+    if (emojiInfo) {
+        document.querySelector('.selected-emoji').textContent = emoji;
+        document.querySelector('.emoji-name').textContent = emojiInfo.name;
+        document.querySelector('.emoji-description').textContent = emojiInfo.description;
+        updateRecentEmojis(emoji);
+    }
 }
 
 function updateRecentEmojis(emoji) {
@@ -112,44 +809,43 @@ function updateRecentEmojis(emoji) {
     
     // Mantener solo los 5 más recientes
     if (recentEmojis.size > 5) {
-        recentEmojis.delete([...recentEmojis][0]);
+        recentEmojis = new Set(Array.from(recentEmojis).slice(-5));
     }
     
-    // Actualizar grid de recientes
-    const recentGrid = document.getElementById('recentEmojis');
-    recentGrid.innerHTML = '';
-    [...recentEmojis].reverse().forEach(emoji => {
-        const emojiDiv = document.createElement('div');
-        emojiDiv.className = 'emoji-item';
-        emojiDiv.textContent = emoji;
-        emojiDiv.addEventListener('click', () => selectEmoji(emoji));
-        recentGrid.appendChild(emojiDiv);
+    // Actualizar la visualización
+    const recentEmojisContainer = document.getElementById('recentEmojis');
+    recentEmojisContainer.innerHTML = '';
+    Array.from(recentEmojis).forEach(emoji => {
+        const emojiElement = createEmojiElement(emoji);
+        recentEmojisContainer.appendChild(emojiElement);
     });
 }
 
 // Búsqueda
 function setupSearch() {
     const searchInput = document.getElementById('searchInput');
+    const peopleEmojisContainer = document.getElementById('peopleEmojis');
+
     searchInput.addEventListener('input', (e) => {
         const searchTerm = normalizeText(e.target.value);
-        
-        Object.entries(emojiData.categories).forEach(([key, category]) => {
-            const grid = document.getElementById(`${key}Emojis`);
-            const items = grid.getElementsByClassName('emoji-item');
-            
-            Array.from(items).forEach(item => {
-                const emoji = item.textContent;
-                const emojiInfo = emojiData.categories.people.keywords[emoji];
-                
-                let shouldShow = false;
-                if (emojiInfo) {
-                    shouldShow = emojiInfo.synonyms.some(synonym => 
-                        normalizeText(synonym).includes(searchTerm)
-                    );
+        const emojis = emojiData.categories.people.emojis;
+
+        peopleEmojisContainer.innerHTML = '';
+
+        emojis.forEach(emoji => {
+            const emojiInfo = emojiData.categories.people.keywords[emoji];
+            if (emojiInfo) {
+                const searchableText = normalizeText([
+                    emojiInfo.name,
+                    emojiInfo.description,
+                    ...emojiInfo.synonyms
+                ].join(' '));
+
+                if (searchTerm === '' || searchableText.includes(searchTerm)) {
+                    const emojiElement = createEmojiElement(emoji);
+                    peopleEmojisContainer.appendChild(emojiElement);
                 }
-                
-                item.style.display = searchTerm === '' || shouldShow ? 'block' : 'none';
-            });
+            }
         });
     });
 }
@@ -157,15 +853,15 @@ function setupSearch() {
 // Copiar emoji
 function setupCopyButton() {
     const copyButton = document.querySelector('.copy-button');
-    copyButton.addEventListener('click', () => {
+    copyButton.addEventListener('click', async () => {
         const emoji = document.querySelector('.selected-emoji').textContent;
-        navigator.clipboard.writeText(emoji).then(() => {
-            const originalText = copyButton.textContent;
-            copyButton.textContent = '¡Copiado!';
-            setTimeout(() => {
-                copyButton.innerHTML = `<span class="copy-icon">📋</span>Copiar`;
-            }, 2000);
-        });
+        try {
+            await navigator.clipboard.writeText(emoji);
+            copyButton.classList.add('copied');
+            setTimeout(() => copyButton.classList.remove('copied'), 1000);
+        } catch (err) {
+            console.error('Error al copiar:', err);
+        }
     });
 }
 

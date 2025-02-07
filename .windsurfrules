@@ -1,0 +1,100 @@
+# Instrucciones Generales para el Proyecto
+
+Este documento sirve como **framework** para desarrollar un proyecto web utilizando **HTML, CSS y JavaScript puro**. Se debe mantener siempre la separación en **tres archivos** independientes:
+
+- `index.html`
+- `styles.css`
+- `script.js`
+
+A continuación, se presentan las instrucciones y mejores prácticas para orientar el desarrollo.
+
+---
+
+## 1. Estructura del Proyecto
+
+El proyecto debe constar **únicamente de 3 archivos**:
+
+- **index.html**: Contendrá la estructura y el contenido semántico de la página.
+- **styles.css**: Incluirá todos los estilos y reglas CSS. Se recomienda el uso de variables CSS y una estructura modular.
+- **script.js**: Contendrá toda la lógica de interacción y manipulación del DOM utilizando JavaScript puro.
+
+> **Nota:** No se deben incluir ni utilizar frameworks o librerías externas. El desarrollo debe basarse únicamente en tecnologías nativas del navegador.
+
+---
+
+## 2. Descripción General del Proyecto
+
+El proyecto actual se basa en una aplicación tipo "Emojipedia" con las siguientes características:
+
+- **Interfaz Dividida en Dos Paneles:**
+  - **Panel Izquierdo:** Incluye una barra de navegación con emojis, un buscador para filtrar emojis y secciones para mostrar categorías (por ejemplo: "Usados frecuentemente", "Emoticonos y personas", etc.).
+  - **Panel Derecho:** Muestra el emoji seleccionado, su nombre y una descripción. Además, cuenta con un botón para copiar el emoji al portapapeles.
+
+- **Interactividad:**
+  - Selección de emojis para actualizar la información en el panel derecho.
+  - Actualización de emojis recientes (máximo 5).
+  - Funcionalidad de búsqueda que filtra los emojis según sinónimos y palabras clave.
+  - Botón de copia que utiliza la API de portapapeles del navegador.
+
+---
+
+## 3. Requisitos Técnicos y Buenas Prácticas
+
+### a) Uso Exclusivo de HTML, CSS y JavaScript Puro
+
+- **No incluir dependencias externas:** El proyecto debe ejecutarse sin frameworks, librerías o dependencias adicionales.
+- **Archivos separados:** Mantener la separación del contenido (`index.html`), los estilos (`styles.css`) y la lógica (`script.js`).
+
+### b) Mejores Prácticas de Desarrollo Web
+
+1. **Estructura y Semántica HTML:**
+   - Utiliza etiquetas semánticas para mejorar la accesibilidad y el SEO.
+   - Asegúrate de que el documento HTML tenga una declaración `<!DOCTYPE html>`, metaetiquetas de `charset` y `viewport`.
+
+2. **Organización y Modularidad en CSS:**
+   - Utiliza variables CSS (por ejemplo, `:root`) para definir colores y otros estilos globales.
+   - Aplica un reset o utiliza propiedades como `box-sizing: border-box;` para un diseño consistente.
+   - Define clases y utiliza selectores específicos para evitar conflictos de estilos.
+   - Mantén la responsividad del diseño utilizando `flexbox` o `grid` según corresponda.
+
+3. **Buenas Prácticas en JavaScript:**
+   - Utiliza **event listeners** para manejar interacciones y evita el uso de `onclick` directamente en el HTML.
+   - Organiza el código en funciones modulares (por ejemplo, para inicializar categorías, configurar la búsqueda y el botón de copia).
+   - Aplica ES6+ (arrow functions, `const` y `let`) para mejorar la claridad y mantenimiento del código.
+   - Realiza la manipulación del DOM de forma eficiente y evita redundancias.
+   - Asegúrate de que el código JavaScript se ejecute después de que el DOM esté completamente cargado (por ejemplo, utilizando `DOMContentLoaded`).
+
+4. **Accesibilidad y Usabilidad:**
+   - Garantiza que todos los elementos interactivos tengan un tamaño adecuado (mínimo de 44px) para dispositivos táctiles.
+   - Proporciona feedback visual en botones y enlaces (por ejemplo, estados hover y active).
+   - Usa textos alternativos y etiquetas adecuadas para describir el contenido visual.
+
+5. **Optimización y Rendimiento:**
+   - Minimiza el uso de recursos innecesarios y asegúrate de que los archivos se carguen de manera eficiente.
+   - Considera la compresión y minificación de archivos en entornos de producción.
+
+---
+
+## 4. Instrucciones para el LLM
+
+El LLM (modelo de lenguaje) debe utilizar el contenido de los archivos proporcionados como **framework base** para la creación y ampliación de proyectos web. Las directrices a seguir son:
+
+- **Mantener la Separación de Archivos:**  
+  Siempre utilizar 3 archivos: `index.html`, `styles.css` y `script.js`.
+
+- **Uso Exclusivo de Tecnologías Nativas:**  
+  El proyecto se desarrollará únicamente con HTML, CSS y JavaScript sin la incorporación de librerías o frameworks adicionales.
+
+- **Implementar las Mejores Prácticas:**
+  - Asegurarse de que el código HTML sea semántico y accesible.
+  - Utilizar variables CSS y técnicas de diseño responsivo.
+  - Escribir código JavaScript modular, utilizando ES6+ y gestionando correctamente el DOM y los eventos.
+
+- **Estructura del Código:**
+  - **index.html:** Incluir la estructura base, enlaces a `styles.css` y `script.js`, y asegurar que el contenido sea claro y semántico.
+  - **styles.css:** Definir estilos globales y específicos, utilizando variables para mantener la consistencia en colores, márgenes y otros atributos.
+  - **script.js:** Implementar toda la lógica interactiva, la manipulación de datos y eventos, siguiendo las mejores prácticas de rendimiento y mantenimiento.
+
+- **Estilo y Tono de Documentación:**
+  - Utilizar un **tono conversacional y amigable** en los comentarios y en la documentación interna del código.
+  - Documentar cada sección y función para facilitar futuras modificaciones y el entendimiento del flujo de trabajo.
