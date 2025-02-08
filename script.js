@@ -7,7 +7,7 @@ const emojiData = {
         },
         people: {
             title: "Emoticonos y personas",
-            emojis: ["😀", "😃", "😄", "😁", "😅", "😂", "🤣", "😊", "😇", "🙂", "🙃", "😉", "😌", "😍", "🥰", "😘", "😗", "😙", "😚", "😋", "😛", "😝", "😜", "🤪", "🤨", "🧐", "🤓", "😎", "🥸", "🤩", "🥳", "😏", "😒", "😞", "😔", "😟", "😕", "🙁", "☹️", "😣", "😖", "😫", "😩", "🥺", "😢", "😭", "😤", "😠", "😡", "🤬", "🤯"],
+            emojis: ["😀", "😃", "😄", "😁", "😆", "😅", "😂", "🤣", "😊", "😇", "🙂", "🙃", "😉", "😌", "😍", "🥰", "😘", "😗", "😙", "😚", "😋", "😛", "😝", "😜", "🤪", "🤨", "🧐", "🤓", "😎", "🤩", "🥳", "😏", "😒", "😞", "😔", "😟", "😕", "🙁", "☹️", "😣", "😖", "😫", "😩", "🥺", "😢", "😭", "😤", "😠", "😡", "🤬", "🤯"],
             keywords: {
                 "😀": {
                     name: "Cara sonriente",
@@ -62,6 +62,24 @@ const emojiData = {
                         "más feliz que unas pascuas", "que no cabe en sí de gozo",
                         // Elementos visuales
                         "emoji sonriente", "cara feliz con dientes", "sonrisa brillante"
+                    ]
+                },
+                "😆": {
+                    name: "Cara sonriente con los ojos cerrados",
+                    description: "Una cara con los ojos cerrados fuertemente y una amplia sonrisa mostrando los dientes. Expresa risa intensa o diversión extrema.",
+                    synonyms: [
+                        // Características físicas
+                        "ojos cerrados", "sonrisa amplia", "dientes visibles",
+                        "cara riendo", "expresión divertida", "risa intensa",
+                        // Estados emocionales
+                        "divertido", "risueño", "gracioso", "entretenido", "alegre",
+                        "regocijado", "jubiloso", "festivo", "animado",
+                        // Regionalismos
+                        "chistoso", "jocoso", "burlón", "bromista",
+                        // Términos coloquiales
+                        "muerto de risa", "partiéndose", "desternillándose",
+                        // Elementos visuales
+                        "cara riendo", "risa con ojos cerrados", "sonrisa divertida"
                     ]
                 },
                 "😅": {
@@ -375,18 +393,6 @@ const emojiData = {
                         "a todo dar", "de película", "lo máximo",
                         // Elementos visuales
                         "gafas negras", "cara amarilla con gafas", "emoji con lentes"
-                    ]
-                },
-                "🥸": {
-                    name: "Cara disfrazada",
-                    description: "Una cara con gafas, cejas pobladas, bigote y nariz falsa. Representa un disfraz obvio o intento de pasar desapercibido.",
-                    synonyms: [
-                        "disfrazado", "incógnito", "encubierto", "oculto", "camuflado",
-                        "disimulado", "secreto", "misterioso", "anónimo", "escondido",
-                        // Regionalismos
-                        "tapado", "embozado", "encapuchado", "enmascarado",
-                        // Términos coloquiales
-                        "de incógnito", "de tapadillo", "a escondidas"
                     ]
                 },
                 "🤩": {
