@@ -7,7 +7,7 @@ const emojiData = {
         },
         people: {
             title: "Emoticonos y personas",
-            emojis: ["😀", "😃", "😄", "😁", "😆", "😅", "😂", "🤣", "😊", "😇", "🙂", "🙃", "😉", "😌", "😍", "🥰", "😘", "😗", "😙", "😚", "😋", "😛", "😝", "😜", "🤪", "🤨", "🧐", "🤓", "😎", "🤩", "🥳", "😏", "😒", "😞", "😔", "😟", "😕", "🙁", "☹️", "😣", "😖", "😫", "😩", "🥺", "😢", "😭", "😤", "😠", "😡", "🤬", "🤯"],
+            emojis: ["😀", "😃", "😄", "😁", "😆", "😅", "😂", "🤣", "😊", "😇", "🙂", "🙃", "😉", "😌", "😍", "🥰", "😘", "😗", "😙", "😚", "😋", "😛", "😝", "😜", "🤪", "🤨", "🧐", "🤓", "😎", "🤩", "🥳", "😏", "😒", "😞", "😔", "😟", "😕", "🙁", "☹️", "😣", "😖", "😫", "😩", "🥺", "😢", "😭", "😤", "😠", "😡", "🤬", "🤯", "😳", "🥵", "🥶", "😱", "😨", "😰"],
             keywords: {
                 "😀": {
                     name: "Cara sonriente",
@@ -420,7 +420,7 @@ const emojiData = {
                     ]
                 },
                 "😏": {
-                    name: "Cara sonriente con suficiencia",
+                    name: "Cara con sonrisa pícara",
                     description: "Una cara con una sonrisa torcida. Expresa satisfacción, picardía o insinuación.",
                     synonyms: [
                         "pícaro", "astuto", "malicioso", "insinuante", "sugerente",
@@ -713,20 +713,114 @@ const emojiData = {
                         "explosión cerebral", "mente volando", "emoji con explosión"
                     ]
                 },
-                "😠": {
-                    name: "Cara enojada",
-                    description: "Una cara con cejas fruncidas y expresión de enfado. Expresa enojo o molestia.",
+                "😳": {
+                    name: "Cara sonrojada",
+                    description: "Una cara con ojos muy abiertos y mejillas sonrojadas. Expresa vergüenza, sorpresa o incomodidad.",
                     synonyms: [
-                        "enojado", "molesto", "enfadado", "irritado", "disgustado",
-                        "malhumorado", "contrariado", "fastidiado", "indignado",
+                        // Características físicas
+                        "mejillas rojas", "ojos abiertos", "cara ruborizada",
+                        "rostro colorado", "expresión avergonzada", "cara roja",
+                        // Estados emocionales
+                        "avergonzado", "ruborizado", "apenado", "sonrojado",
+                        "abochornado", "tímido", "cohibido", "turbado",
                         // Regionalismos
-                        "cabreado", "enojón", "molesto", "bravo",
+                        "achicopalado", "apachurrado", "cortado", "chiveado",
                         // Términos coloquiales
-                        "de malas", "mosqueado", "enfurruñado",
+                        "rojo como un tomate", "colorado como un pimiento",
                         // Elementos visuales
-                        "cara enojada", "ceño fruncido", "expresión de enfado"
+                        "cara sonrojada", "mejillas coloradas", "rostro avergonzado"
                     ]
-                }
+                },
+                "🥵": {
+                    name: "Cara acalorada",
+                    description: "Una cara roja con lengua afuera, sudando profusamente. Expresa calor extremo, agobio térmico o excitación intensa.",
+                    synonyms: [
+                        // Características físicas
+                        "cara roja", "sudando", "lengua afuera", "acalorado", "sofocado",
+                        // Estados emocionales
+                        "agobiado", "exhausto", "abrumado", "excitado", "ardiente",
+                        // Regionalismos España
+                        "achicharrado", "abrasado", "derretido", "asado",
+                        // Regionalismos Latinoamérica
+                        "acalambrado", "sofocón", "asolado", "enchilado",
+                        // Términos coloquiales
+                        "hirviendo", "quemando", "a fuego", "que arde",
+                        // Elementos
+                        "calor", "fiebre", "temperatura", "bochorno", "canícula"
+                    ]
+                },
+                "🥶": {
+                    name: "Cara helada",
+                    description: "Una cara azul temblando con dientes castañeteando. Expresa frío extremo, congelación o una situación escalofriante.",
+                    synonyms: [
+                        // Características físicas
+                        "cara azul", "temblando", "congelado", "tiritando", "helado",
+                        // Estados emocionales
+                        "aterido", "entumecido", "paralizado", "estremecido",
+                        // Regionalismos España
+                        "aterido", "gélido", "pasmado", "arrecido",
+                        // Regionalismos Latinoamérica
+                        "friolento", "escarchado", "congelado", "entumido",
+                        // Términos coloquiales
+                        "hecho un témpano", "como un polo", "más frío que el polo",
+                        // Elementos
+                        "hielo", "nieve", "escarcha", "glacial", "polar"
+                    ]
+                },
+                "😱": {
+                    name: "Cara gritando de miedo",
+                    description: "Una cara amarilla recreando el famoso cuadro 'El Grito' de Munch. Expresa terror extremo, pánico o sorpresa impactante.",
+                    synonyms: [
+                        // Características físicas
+                        "boca abierta", "mejillas alzadas", "ojos desorbitados", "manos en la cara",
+                        // Estados emocionales
+                        "aterrorizado", "horrorizado", "espantado", "pasmado", "impactado",
+                        // Regionalismos España
+                        "acojonado", "cagado de miedo", "muerto de miedo",
+                        // Regionalismos Latinoamérica
+                        "espantado", "aterrado", "asustado", "horrorizado",
+                        // Términos coloquiales
+                        "en pánico", "muerto del susto", "con el alma en vilo",
+                        // Elementos
+                        "grito", "terror", "pánico", "horror", "espanto"
+                    ]
+                },
+                "😨": {
+                    name: "Cara de miedo",
+                    description: "Una cara con ojos muy abiertos y cejas arqueadas hacia arriba. Expresa miedo, ansiedad o preocupación intensa.",
+                    synonyms: [
+                        // Características físicas
+                        "ojos abiertos", "cejas arqueadas", "boca tensa", "expresión asustada",
+                        // Estados emocionales
+                        "asustado", "temeroso", "inquieto", "alarmado", "perturbado",
+                        // Regionalismos España
+                        "acongojado", "amedrentado", "apurado",
+                        // Regionalismos Latinoamérica
+                        "asustadizo", "miedoso", "temeroso", "nervioso",
+                        // Términos coloquiales
+                        "con los pelos de punta", "con el corazón en la boca",
+                        // Elementos
+                        "miedo", "temor", "susto", "alarma", "sobresalto"
+                    ]
+                },
+                "😰": {
+                    name: "Cara preocupada con sudor",
+                    description: "Una cara azulada con sudor en la frente y boca abierta. Expresa ansiedad, preocupación o nerviosismo intenso.",
+                    synonyms: [
+                        // Características físicas
+                        "sudando frío", "cara azulada", "boca abierta", "gota de sudor",
+                        // Estados emocionales
+                        "ansioso", "preocupado", "nervioso", "angustiado", "intranquilo",
+                        // Regionalismos España
+                        "agobiado", "abrumado", "acongojado",
+                        // Regionalismos Latinoamérica
+                        "afligido", "mortificado", "inquieto", "preocupado",
+                        // Términos coloquiales
+                        "con el alma en un hilo", "sudando la gota gorda",
+                        // Elementos
+                        "sudor frío", "ansiedad", "preocupación", "angustia", "nervios"
+                    ]
+                },
             }
         },
         animals: {
