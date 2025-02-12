@@ -7,7 +7,7 @@ const emojiData = {
         },
         people: {
             title: "Emoticonos y personas",
-            emojis: ["😀", "😃", "😄", "😁", "😆", "😅", "😂", "🤣", "😊", "😇", "🙂", "🙃", "😉", "😌", "😍", "🥰", "😘", "😗", "😙", "😚", "😋", "😛", "😝", "😜", "🤪", "🤨", "🧐", "🤓", "😎", "🤩", "🥳", "😏", "😒", "😞", "😔", "😟", "😕", "🙁", "☹️", "😣", "😖", "😫", "😩", "🥺", "😢", "😭", "😤", "😠", "😡", "🤬", "🤯", "😳", "🥵", "🥶", "😱", "😨", "😰", "😥", "😓", "🤗", "🤔", "🤭"],
+            emojis: ["😀", "😃", "😄", "😁", "😆", "😅", "😂", "🤣", "😊", "😇", "🙂", "🙃", "😉", "😌", "😍", "🥰", "😘", "😗", "😙", "😚", "😋", "😛", "😝", "😜", "🤪", "🤨", "🧐", "🤓", "😎", "🤩", "🥳", "😏", "😒", "😞", "😔", "😟", "😕", "🙁", "☹️", "😣", "😖", "😫", "😩", "🥺", "😢", "😭", "😤", "😠", "😡", "🤬", "🤯", "😳", "🥵", "🥶", "😱", "😨", "😰", "😥", "😓", "🤗", "🤔", "🤭", "🤫", "🤥", "😶", "😑", "😵", "😬", "🙄", "🤐", "🤢", "🤮", "🤧", "🥴"],
             keywords: {
                 "😀": {
                     name: "Cara sonriente",
@@ -909,6 +909,227 @@ const emojiData = {
                         "con la risa floja", "tapándose la boca",
                         // Elementos visuales
                         "sonrojo", "gesto de sorpresa", "expresión pícara"
+                    ]
+                },
+                "🤫": {
+                    name: "Cara pidiendo silencio",
+                    description: "Una cara con dedo índice presionado contra los labios, indicando un gesto universal de silencio o secreto.",
+                    synonyms: [
+                        // Características físicas
+                        "dedo en labios", "gesto de silencio", "expresión cómplice", "ojos alertas",
+                        // Estados emocionales
+                        "discreto", "sigiloso", "secretivo", "cómplice", "cauteloso",
+                        // Regionalismos España
+                        "calladito", "chitón", "mutis", "callado",
+                        // Regionalismos Latinoamérica
+                        "silencioso", "discreto", "calladito", "shhhh",
+                        // Términos coloquiales
+                        "boca cerrada", "ni mu", "calladito como una tumba",
+                        // Elementos visuales
+                        "dedo índice", "gesto de silencio", "expresión de complicidad"
+                    ]
+                },
+                "🤥": {
+                    name: "Cara de mentiroso",
+                    description: "Una cara con nariz larga, reminiscente de Pinocho, simbolizando mentira o engaño.",
+                    synonyms: [
+                        // Características físicas
+                        "nariz larga", "nariz crecida", "cara de Pinocho", "expresión culpable",
+                        // Estados emocionales
+                        "mentiroso", "embustero", "engañoso", "falso", "deshonesto",
+                        // Regionalismos España
+                        "trola", "embustero", "fantasioso", "mentiras",
+                        // Regionalismos Latinoamérica
+                        "chamullero", "chismoso", "cuentero", "mitómano",
+                        // Términos coloquiales
+                        "cuenta cuentos", "más falso que Judas", "mentiroso compulsivo",
+                        // Elementos visuales
+                        "nariz creciente", "gesto culpable", "expresión sospechosa"
+                    ]
+                },
+                "😶": {
+                    name: "Cara sin boca",
+                    description: "Una cara amarilla sin boca, solo con ojos, expresando silencio, mudez o perplejidad.",
+                    synonyms: [
+                        // Características físicas
+                        "sin boca", "ojos neutros", "cara lisa", "expresión muda",
+                        // Estados emocionales
+                        "mudo", "silencioso", "perplejo", "desconcertado", "sin palabras",
+                        // Regionalismos España
+                        "pasmado", "enmudecido", "cortado", "callado",
+                        // Regionalismos Latinoamérica
+                        "anonadado", "boquiabierto", "mudo", "sin habla",
+                        // Términos coloquiales
+                        "sin decir ni pío", "más mudo que una tumba", "sin voz",
+                        // Elementos visuales
+                        "ausencia de boca", "mirada fija", "expresión neutra"
+                    ]
+                },
+                "😑": {
+                    name: "Cara inexpresiva",
+                    description: "Una cara con ojos rectos y boca recta, mostrando total falta de expresión o emoción.",
+                    synonyms: [
+                        // Características físicas
+                        "ojos rectos", "boca recta", "expresión neutral", "cara plana",
+                        // Estados emocionales
+                        "inexpresivo", "neutral", "impasible", "estoico", "indiferente",
+                        // Regionalismos España
+                        "soso", "impávido", "inalterable", "neutro",
+                        // Regionalismos Latinoamérica
+                        "serio", "desganado", "desinteresado", "apático",
+                        // Términos coloquiales
+                        "cara de póker", "cara de palo", "sin expresión",
+                        // Elementos visuales
+                        "líneas rectas", "expresión neutra", "gesto plano"
+                    ]
+                },
+                "😵": {
+                    name: "Cara mareada",
+                    description: "Una cara con ojos en espiral, expresando mareo, confusión o aturdimiento.",
+                    synonyms: [
+                        // Características físicas
+                        "ojos en espiral", "expresión aturdida", "cara confusa", "gesto desorientado",
+                        // Estados emocionales
+                        "mareado", "aturdido", "confundido", "desorientado", "desconcertado",
+                        // Regionalismos España
+                        "flipado", "atontado", "atolondrado", "mareado",
+                        // Regionalismos Latinoamérica
+                        "pachuco", "turulato", "embobado", "noqueado",
+                        // Términos coloquiales
+                        "dando vueltas", "perdiendo el norte", "viendo estrellitas",
+                        // Elementos visuales
+                        "espirales", "expresión confusa", "gesto aturdido"
+                    ]
+                },
+                "😬": {
+                    name: "Cara con los dientes apretados",
+                    description: "Una cara mostrando todos los dientes en una mueca tensa, expresando nerviosismo, incomodidad o situación embarazosa.",
+                    synonyms: [
+                        // Características físicas
+                        "dientes apretados", "mueca tensa", "sonrisa forzada", "gesto incómodo",
+                        // Estados emocionales
+                        "nervioso", "incómodo", "tenso", "ansioso", "embarazoso",
+                        // Regionalismos España
+                        "azorado", "violento", "apurado", "tenso",
+                        // Regionalismos Latinoamérica
+                        "incómodo", "nervioso", "tenso", "apretado",
+                        // Términos coloquiales
+                        "momento incómodo", "risa nerviosa", "sonrisa forzada",
+                        // Elementos visuales
+                        "mueca", "dientes visibles", "expresión tensa"
+                    ]
+                },
+                "🙄": {
+                    name: "Cara con los ojos hacia arriba",
+                    description: "Una cara con los ojos mirando hacia arriba en un gesto de exasperación, fastidio o incredulidad.",
+                    synonyms: [
+                        // Características físicas
+                        "ojos hacia arriba", "mirada al cielo", "gesto exasperado", "expresión fastidiada",
+                        // Estados emocionales
+                        "exasperado", "fastidiado", "incrédulo", "hastiado", "cansado",
+                        // Regionalismos España
+                        "harto", "cansino", "pesado", "agobiado",
+                        // Regionalismos Latinoamérica
+                        "fastidiado", "cansado", "aburrido", "hastiado",
+                        // Términos coloquiales
+                        "dar vueltas los ojos", "poner los ojos en blanco", "mirada al techo",
+                        // Elementos visuales
+                        "ojos rodando", "mirada exasperada", "gesto de fastidio"
+                    ]
+                },
+                "🤐": {
+                    name: "Cara con boca cerrada por cremallera",
+                    description: "Una cara con una cremallera en lugar de boca. Expresa la acción de mantener silencio o guardar un secreto.",
+                    synonyms: [
+                        // Características físicas
+                        "boca con cremallera", "boca cerrada", "cara silenciada",
+                        "rostro sellado", "boca sellada", "cara con cierre",
+                        // Estados emocionales
+                        "silencioso", "callado", "discreto", "reservado", "prudente",
+                        "hermético", "contenido", "mudo", "sigiloso",
+                        // Regionalismos
+                        "calladito", "cerrado", "sellado", "mudo",
+                        // Términos coloquiales
+                        "boca cerrada", "labios sellados", "sin decir palabra",
+                        "guardando secretos", "no diré nada",
+                        // Elementos visuales
+                        "emoji con cremallera", "cara con cierre", "boca con zipper"
+                    ]
+                },
+                "🤢": {
+                    name: "Cara nauseabunda",
+                    description: "Una cara verde con expresión de náusea o asco. Expresa malestar físico o repulsión ante algo.",
+                    synonyms: [
+                        // Características físicas
+                        "cara verde", "expresión de asco", "rostro enfermo",
+                        "cara mareada", "expresión nauseabunda", "gesto de repulsión",
+                        // Estados emocionales
+                        "asqueado", "nauseabundo", "mareado", "repugnado", "indispuesto",
+                        "enfermo", "descompuesto", "revuelto",
+                        // Regionalismos
+                        "empachado", "maluco", "desguañangado", "pachuco",
+                        // Términos coloquiales
+                        "con el estómago revuelto", "verde del asco",
+                        "con ganas de vomitar", "mal cuerpo",
+                        // Elementos visuales
+                        "emoji verde", "cara de asco", "rostro nauseabundo"
+                    ]
+                },
+                "🤮": {
+                    name: "Cara vomitando",
+                    description: "Una cara verde vomitando. Representa el acto de vomitar o una reacción extrema de asco o repulsión.",
+                    synonyms: [
+                        // Características físicas
+                        "vomitando", "cara verde", "boca abierta",
+                        "rostro enfermo", "cara expulsando", "gesto de vómito",
+                        // Estados emocionales
+                        "asqueado", "repugnado", "indispuesto", "enfermo",
+                        "nauseabundo", "descompuesto", "revuelto",
+                        // Regionalismos
+                        "guacareando", "arrojando", "devolviendo", "echando",
+                        // Términos coloquiales
+                        "echando la pota", "echando la hueva",
+                        "sacando todo", "botando el almuerzo",
+                        // Elementos visuales
+                        "emoji vomitando", "cara con vómito", "rostro expulsando"
+                    ]
+                },
+                "🤧": {
+                    name: "Cara estornudando",
+                    description: "Una cara estornudando con un pañuelo. Representa un resfriado, alergia o el acto de estornudar.",
+                    synonyms: [
+                        // Características físicas
+                        "estornudando", "cara con pañuelo", "nariz congestionada",
+                        "rostro resfriado", "cara con alergia", "gesto de estornudo",
+                        // Estados emocionales
+                        "resfriado", "enfermo", "alérgico", "congestionado",
+                        "indispuesto", "achacoso", "constipado",
+                        // Regionalismos
+                        "acatarrado", "agripado", "enmocado", "trancado",
+                        // Términos coloquiales
+                        "achís", "salud", "con la nariz tapada",
+                        "moqueando", "con gripe",
+                        // Elementos visuales
+                        "emoji estornudando", "cara resfriada", "rostro con pañuelo"
+                    ]
+                },
+                "🥴": {
+                    name: "Cara mareada",
+                    description: "Una cara con expresión desorientada y ojos desalineados. Representa mareo, confusión o estado de embriaguez.",
+                    synonyms: [
+                        // Características físicas
+                        "ojos desalineados", "sonrisa torcida", "cara desorientada",
+                        "rostro confuso", "expresión aturdida", "gesto mareado",
+                        // Estados emocionales
+                        "mareado", "confundido", "aturdido", "desorientado",
+                        "embriagado", "atontado", "desconcertado",
+                        // Regionalismos
+                        "borracho", "ebrio", "pedo", "chispado",
+                        // Términos coloquiales
+                        "dando vueltas", "con la cabeza dando vueltas",
+                        "medio cocido", "tocado", "pasado de copas",
+                        // Elementos visuales
+                        "emoji mareado", "cara confusa", "rostro aturdido"
                     ]
                 },
             }
