@@ -7,7 +7,7 @@ const emojiData = {
         },
         people: {
             title: "Emoticonos y personas",
-            emojis: ["😀", "😃", "😄", "😁", "😆", "😅", "😂", "🤣", "😊", "😇", "🙂", "🙃", "😉", "😌", "😍", "🥰", "😘", "😗", "😙", "😚", "😋", "😛", "😝", "😜", "🤪", "🤨", "🧐", "🤓", "😎", "🤩", "🥳", "😏", "😒", "😞", "😔", "😟", "😕", "🙁", "☹️", "😣", "😖", "😫", "😩", "🥺", "😢", "😭", "😤", "😠", "😡", "🤬", "🤯", "😳", "🥵", "🥶", "😱", "😨", "😰", "😥", "😓", "🤗", "🤔", "🤭", "🤫", "🤥", "😶", "😑", "😵", "😬", "🙄", "🤐", "🤢", "🤮", "🤧", "🥴"],
+            emojis: ["😀", "😃", "😄", "😁", "😆", "😅", "😂", "🤣", "😊", "😇", "🙂", "🙃", "😉", "😌", "😍", "🥰", "😘", "😗", "😙", "😚", "😋", "😛", "😝", "😜", "🤪", "🤨", "🧐", "🤓", "😎", "🤩", "🥳", "😏", "😒", "😞", "😔", "😟", "😕", "🙁", "☹️", "😣", "😖", "😫", "😩", "🥺", "😢", "😭", "😤", "😠", "😡", "🤬", "🤯", "😳", "🥵", "🥶", "😱", "😨", "😰", "😥", "😓", "🤗", "🤔", "🤭", "🤫", "🤥", "😶", "😑", "😵", "😬", "🙄", "😮", "😲", "🥱", "😴", "🤤", "😪", "🤐", "🤢", "🤮", "🤧", "🥴"],
             keywords: {
                 "😀": {
                     name: "Cara sonriente",
@@ -1035,6 +1035,120 @@ const emojiData = {
                         "dar vueltas los ojos", "poner los ojos en blanco", "mirada al techo",
                         // Elementos visuales
                         "ojos rodando", "mirada exasperada", "gesto de fastidio"
+                    ]
+                },
+                "😮": {
+                    name: "Cara con la boca abierta",
+                    description: "Una cara con la boca formando una O perfecta. Expresa sorpresa, asombro o estado de shock.",
+                    synonyms: [
+                        // Características físicas
+                        "boca abierta", "boca redonda", "cara sorprendida",
+                        "rostro asombrado", "expresión de sorpresa", "gesto de asombro",
+                        // Estados emocionales
+                        "sorprendido", "asombrado", "impactado", "atónito",
+                        "pasmado", "boquiabierto", "estupefacto",
+                        // Regionalismos
+                        "anonadado", "patidifuso", "ojiplático", "alelado",
+                        // Términos coloquiales
+                        "con la boca abierta", "sin palabras", "flipando",
+                        "en shock", "impresionado",
+                        // Elementos visuales
+                        "emoji sorprendido", "cara asombrada", "rostro impactado"
+                    ]
+                },
+                "😲": {
+                    name: "Cara con la boca abierta asombrada",
+                    description: "Una cara con ojos muy abiertos y boca en forma de O. Expresa asombro intenso o sorpresa extrema.",
+                    synonyms: [
+                        // Características físicas
+                        "ojos grandes", "boca muy abierta", "cara impactada",
+                        "rostro asombrado", "expresión de shock", "gesto de impacto",
+                        // Estados emocionales
+                        "asombrado", "impactado", "atónito", "perplejo",
+                        "maravillado", "estupefacto", "pasmado",
+                        // Regionalismos
+                        "boquiabierto", "pasmado", "turulato", "azorado",
+                        // Términos coloquiales
+                        "sin palabras", "en shock total", "flipando en colores",
+                        "con la boca abierta", "alucinando",
+                        // Elementos visuales
+                        "emoji asombrado", "cara impactada", "rostro maravillado"
+                    ]
+                },
+                "🥱": {
+                    name: "Cara bostezando",
+                    description: "Una cara con la boca muy abierta bostezando y ojos cerrados. Expresa cansancio, aburrimiento o somnolencia.",
+                    synonyms: [
+                        // Características físicas
+                        "bostezando", "boca abierta", "ojos cerrados",
+                        "cara somnolienta", "expresión de sueño", "gesto de bostezo",
+                        // Estados emocionales
+                        "cansado", "somnoliento", "adormilado", "agotado",
+                        "aburrido", "fatigado", "exhausto",
+                        // Regionalismos
+                        "muerto de sueño", "rendido", "molido", "fundido",
+                        // Términos coloquiales
+                        "con sueño", "que me duermo", "cayéndose de sueño",
+                        "necesito café", "sin energía",
+                        // Elementos visuales
+                        "emoji bostezando", "cara con sueño", "rostro cansado"
+                    ]
+                },
+                "😴": {
+                    name: "Cara durmiendo",
+                    description: "Una cara dormida con ojos cerrados y una burbuja saliendo de la nariz. Representa el acto de dormir o un estado de aburrimiento profundo.",
+                    synonyms: [
+                        // Características físicas
+                        "dormido", "ojos cerrados", "burbuja en la nariz",
+                        "cara dormida", "expresión relajada", "gesto de sueño",
+                        // Estados emocionales
+                        "dormido", "relajado", "tranquilo", "descansando",
+                        "inconsciente", "plácido", "sereno",
+                        // Regionalismos
+                        "roncando", "sobando", "jetón", "dormitando",
+                        // Términos coloquiales
+                        "en los brazos de Morfeo", "en el quinto sueño",
+                        "durmiendo a pierna suelta", "echando la siesta",
+                        // Elementos visuales
+                        "emoji dormido", "cara durmiendo", "rostro descansando"
+                    ]
+                },
+                "🤤": {
+                    name: "Cara con baba",
+                    description: "Una cara con la boca entreabierta y un hilo de baba. Expresa deseo intenso por algo, generalmente comida, o un estado de ensoñación.",
+                    synonyms: [
+                        // Características físicas
+                        "babeando", "boca entreabierta", "saliva cayendo",
+                        "cara deseosa", "expresión anhelante", "gesto de antojo",
+                        // Estados emocionales
+                        "deseoso", "antojado", "hambriento", "ansioso",
+                        "codicioso", "anhelante", "embobado",
+                        // Regionalismos
+                        "baboso", "antojado", "goloso", "hambriento",
+                        // Términos coloquiales
+                        "se me hace agua la boca", "me lo como con los ojos",
+                        "muero de ganas", "que rico",
+                        // Elementos visuales
+                        "emoji babeando", "cara con antojo", "rostro deseoso"
+                    ]
+                },
+                "😪": {
+                    name: "Cara adormilada",
+                    description: "Una cara con expresión somnolienta y una burbuja de moco. Representa somnolencia, cansancio o aburrimiento.",
+                    synonyms: [
+                        // Características físicas
+                        "somnoliento", "ojos entrecerrados", "burbuja de moco",
+                        "cara cansada", "expresión adormilada", "gesto de sueño",
+                        // Estados emocionales
+                        "cansado", "adormilado", "soñoliento", "agotado",
+                        "exhausto", "fatigado", "amodorrado",
+                        // Regionalismos
+                        "modorro", "amodorrado", "dormitando", "cabeceando",
+                        // Términos coloquiales
+                        "que me duermo", "con sueño", "sin energía",
+                        "necesito dormir", "cayéndose de sueño",
+                        // Elementos visuales
+                        "emoji adormilado", "cara con sueño", "rostro cansado"
                     ]
                 },
                 "🤐": {
