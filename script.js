@@ -11,7 +11,7 @@ const emojiData = {
             keywords: {
                 "😀": {
                     name: "Cara sonriente",
-                    description: "Una cara amarilla con ojos abiertos y una amplia sonrisa mostrando los dientes. Expresa genuina felicidad y emociones positivas.",
+                    description: "Una cara amarilla con ojos abiertos y una amplia sonrisa mostrando los dientes. Significa genuina felicidad y emociones positivas.",
                     synonyms: [
                         "sonrisa", "feliz", "contento", "alegre", "radiante",
                         "dichoso", "jubiloso", "animado", "satisfecho", "optimista",
@@ -23,7 +23,7 @@ const emojiData = {
                 },
                 "😃": {
                     name: "Cara sonriente con ojos grandes",
-                    description: "Una cara amarilla con ojos muy abiertos y una gran sonrisa mostrando los dientes. Transmite entusiasmo y emoción intensa.",
+                    description: "Una cara amarilla con ojos muy abiertos y una gran sonrisa mostrando los dientes. Su significado es de entusiasmo y emoción intensa.",
                     synonyms: [
                         "emocionado", "entusiasmado", "ilusionado", "exaltado", "eufórico",
                         "radiante", "felicísimo", "contentísimo", "alegre", "animado",
@@ -35,7 +35,7 @@ const emojiData = {
                 },
                 "😄": {
                     name: "Cara sonriente con ojos sonrientes",
-                    description: "Una cara amarilla con ojos en forma de arco y amplia sonrisa mostrando los dientes. Representa una felicidad genuina que se refleja tanto en la boca como en los ojos.",
+                    description: "Una cara amarilla con ojos en forma de arco y amplia sonrisa mostrando los dientes. Su significado es de orgullo, satisfacción o confianza en sí mismo.",
                     synonyms: [
                         "risueño", "jovial", "radiante", "dichoso", "contento",
                         "feliz", "sonriente", "alegre", "animado", "gozoso",
@@ -47,7 +47,7 @@ const emojiData = {
                 },
                 "😁": {
                     name: "Cara radiante con ojos sonrientes",
-                    description: "Una cara amarilla con ojos en forma de arco y sonrisa grande mostrando los dientes. Expresa orgullo, satisfacción o confianza en sí mismo.",
+                    description: "Una cara amarilla con ojos en forma de arco y sonrisa grande mostrando los dientes. Su significado es de orgullo, satisfacción o confianza en sí mismo.",
                     synonyms: [
                         // Características físicas
                         "sonrisa con dientes", "ojos felices", "sonrisa grande",
@@ -66,7 +66,7 @@ const emojiData = {
                 },
                 "😆": {
                     name: "Cara sonriente con los ojos cerrados",
-                    description: "Una cara con los ojos cerrados fuertemente y una amplia sonrisa mostrando los dientes. Expresa risa intensa o diversión extrema.",
+                    description: "Una cara con los ojos cerrados fuertemente y una amplia sonrisa mostrando los dientes. Significa risa intensa o diversión extrema.",
                     synonyms: [
                         // Características físicas
                         "ojos cerrados", "sonrisa amplia", "dientes visibles",
@@ -84,7 +84,7 @@ const emojiData = {
                 },
                 "😅": {
                     name: "Cara sonriente con sudor",
-                    description: "Una cara sonriente con una gota de sudor en la frente. Expresa alivio, incomodidad o situación embarazosa.",
+                    description: "Una cara sonriente con una gota de sudor en la frente. Significa alivio, incomodidad o situación embarazosa.",
                     synonyms: [
                         // Características físicas
                         "gota de sudor", "sudor en la frente", "sonrisa nerviosa",
@@ -103,7 +103,7 @@ const emojiData = {
                 },
                 "😂": {
                     name: "Cara con lágrimas de alegría",
-                    description: "Una cara amarilla con una sonrisa abierta y lágrimas de felicidad. Expresa que algo es tan gracioso que te hace llorar de risa.",
+                    description: "Una cara amarilla con una sonrisa abierta y lágrimas de felicidad. Significa que algo es tan gracioso que te hace llorar de risa.",
                     synonyms: [
                         "risa", "carcajada", "gracioso", "divertido", "jajaja",
                         "risas", "humor", "diversión", "chiste", "gracia",
@@ -125,7 +125,7 @@ const emojiData = {
                 },
                 "😊": {
                     name: "Cara sonriente sonrojada",
-                    description: "Una cara sonriente con ojos sonrientes y mejillas rosadas. Expresa felicidad genuina, calidez, gratitud o timidez.",
+                    description: "Una cara sonriente con ojos sonrientes y mejillas rosadas. Significa felicidad genuina, calidez, gratitud o timidez.",
                     synonyms: [
                         "sonrojado", "tímido", "avergonzado", "halagado", "agradecido",
                         "ruborizado", "complacido", "modesto", "dulce", "tierno",
@@ -137,7 +137,7 @@ const emojiData = {
                 },
                 "😇": {
                     name: "Cara sonriente con halo",
-                    description: "Una cara sonriente con un halo dorado flotando sobre la cabeza. Representa inocencia, bondad o comportamiento angelical.",
+                    description: "Una cara sonriente con un halo dorado flotando sobre la cabeza. Su significado es de inocencia, bondad o comportamiento angelical.",
                     synonyms: [
                         "angelical", "inocente", "santo", "bueno", "puro",
                         "virtuoso", "angelito", "bendito", "inmaculado", "noble",
@@ -149,7 +149,7 @@ const emojiData = {
                 },
                 "🙂": {
                     name: "Cara ligeramente sonriente",
-                    description: "Una cara amarilla con una leve sonrisa. Puede expresar amabilidad, pero también se usa para indicar ironía o incomodidad.",
+                    description: "Una cara amarilla con una leve sonrisa. Puede significar amabilidad, pero también se usa para indicar ironía o incomodidad.",
                     synonyms: [
                         "amable", "cordial", "simpático", "agradable", "cortés",
                         "educado", "diplomático", "formal", "correcto", "comedido",
@@ -161,7 +161,7 @@ const emojiData = {
                 },
                 "🙃": {
                     name: "Cara al revés",
-                    description: "Una cara sonriente volteada al revés. Se usa para expresar sarcasmo, ironía o una situación absurda.",
+                    description: "Una cara sonriente volteada al revés. Se usa para significar sarcasmo, ironía o una situación absurda.",
                     synonyms: [
                         "irónico", "sarcástico", "absurdo", "bromista", "juguetón",
                         "burlón", "chistoso", "gracioso", "divertido", "jocoso",
@@ -185,7 +185,7 @@ const emojiData = {
                 },
                 "😌": {
                     name: "Cara aliviada",
-                    description: "Una cara serena con ojos cerrados y leve sonrisa. Expresa alivio, satisfacción o paz interior.",
+                    description: "Una cara serena con ojos cerrados y leve sonrisa. Su significado es de alivio, satisfacción o paz interior.",
                     synonyms: [
                         "aliviado", "tranquilo", "relajado", "sereno", "calmado",
                         "sosegado", "pacífico", "satisfecho", "contento", "plácido",
@@ -197,7 +197,7 @@ const emojiData = {
                 },
                 "😍": {
                     name: "Cara sonriente con ojos de corazón",
-                    description: "Una cara sonriente con ojos en forma de corazón. Expresa amor intenso, admiración o encanto por algo o alguien.",
+                    description: "Una cara sonriente con ojos en forma de corazón. Significa amor intenso, admiración o encanto por algo o alguien.",
                     synonyms: [
                         "enamorado", "encantado", "fascinado", "cautivado", "embelesado",
                         "ilusionado", "maravillado", "embobado", "prendado", "atraído",
@@ -209,7 +209,7 @@ const emojiData = {
                 },
                 "🥰": {
                     name: "Cara sonriente con corazones",
-                    description: "Una cara sonriente rodeada de corazones flotantes. Expresa adoración, gratitud o un sentimiento de amor y aprecio.",
+                    description: "Una cara sonriente rodeada de corazones flotantes. Significa adoración, gratitud o un sentimiento de amor y aprecio.",
                     synonyms: [
                         "adorable", "amoroso", "cariñoso", "tierno", "dulce",
                         "afectuoso", "mimoso", "romántico", "apreciado", "querido",
@@ -221,7 +221,7 @@ const emojiData = {
                 },
                 "😘": {
                     name: "Cara lanzando un beso",
-                    description: "Una cara guiñando un ojo y lanzando un beso con un corazón. Expresa afecto, cariño o agradecimiento.",
+                    description: "Una cara guiñando un ojo y lanzando un beso con un corazón. Significa afecto, cariño o agradecimiento.",
                     synonyms: [
                         "beso", "cariño", "afecto", "amor", "besito",
                         "muak", "abrazo", "ternura", "aprecio", "gratitud",
@@ -233,7 +233,7 @@ const emojiData = {
                 },
                 "😗": {
                     name: "Cara besando",
-                    description: "Una cara amarilla con ojos abiertos y labios fruncidos en posición de beso. Expresa un beso amistoso o cariñoso.",
+                    description: "Una cara amarilla con ojos abiertos y labios fruncidos en posición de beso. Su significado es de un beso amistoso o cariñoso.",
                     synonyms: [
                         "beso", "besando", "besito", "cariño", "afecto",
                         "mimo", "ternura", "cariñoso", "dulce", "amistoso",
@@ -245,7 +245,7 @@ const emojiData = {
                 },
                 "😙": {
                     name: "Cara besando con ojos sonrientes",
-                    description: "Una cara amarilla con ojos sonrientes y labios fruncidos en posición de beso. Expresa felicidad y afecto al mismo tiempo.",
+                    description: "Una cara amarilla con ojos sonrientes y labios fruncidos en posición de beso. Significa felicidad y afecto al mismo tiempo.",
                     synonyms: [
                         "beso feliz", "beso alegre", "beso cariñoso", "beso dulce", "beso tierno",
                         "cariñoso", "afectuoso", "amoroso", "dulce", "tierno",
@@ -257,7 +257,7 @@ const emojiData = {
                 },
                 "😚": {
                     name: "Cara besando con ojos cerrados",
-                    description: "Una cara amarilla con ojos cerrados y labios fruncidos en posición de beso. Expresa timidez o ternura al dar un beso.",
+                    description: "Una cara amarilla con ojos cerrados y labios fruncidos en posición de beso. Su significado es de timidez o ternura al dar un beso.",
                     synonyms: [
                         "beso tímido", "beso tierno", "beso dulce", "beso suave", "beso romántico",
                         "tímido", "vergonzoso", "dulce", "tierno", "romántico",
@@ -269,7 +269,7 @@ const emojiData = {
                 },
                 "😋": {
                     name: "Cara saboreando comida",
-                    description: "Una cara sonriente con ojos cerrados y lengua afuera, saboreando algo delicioso. Expresa deleite por comida o algo que gusta mucho.",
+                    description: "Una cara sonriente con ojos cerrados y lengua afuera, saboreando algo delicioso. Significa deleite por comida o algo que gusta mucho.",
                     synonyms: [
                         "delicioso", "sabroso", "rico", "hambre", "antojo",
                         "glotonería", "apetito", "gusto", "sabor", "deleite",
@@ -281,7 +281,7 @@ const emojiData = {
                 },
                 "😛": {
                     name: "Cara con lengua afuera",
-                    description: "Una cara con ojos abiertos y lengua afuera. Puede expresar juego, broma o travesura.",
+                    description: "Una cara con ojos abiertos y lengua afuera. Puede significar juego, broma o travesura.",
                     synonyms: [
                         "travieso", "juguetón", "bromista", "burlón", "pícaro",
                         "gracioso", "divertido", "chistoso", "juego", "broma",
@@ -293,7 +293,7 @@ const emojiData = {
                 },
                 "😝": {
                     name: "Cara con lengua afuera y ojos cerrados",
-                    description: "Una cara con la lengua sacada y los ojos fuertemente cerrados. Expresa broma, juego o sabor intenso.",
+                    description: "Una cara con la lengua sacada y los ojos fuertemente cerrados. Significa broma, juego o sabor intenso.",
                     synonyms: [
                         // Características físicas
                         "lengua fuera ojos cerrados", "ojos apretados", "lengua sacada",
@@ -324,7 +324,7 @@ const emojiData = {
                 },
                 "🤪": {
                     name: "Cara loca",
-                    description: "Una cara con ojos desalineados y lengua afuera. Expresa locura, diversión extrema o comportamiento alocado.",
+                    description: "Una cara con ojos desalineados y lengua afuera. Significa locura, diversión extrema o comportamiento alocado.",
                     synonyms: [
                         "loco", "alocado", "chiflado", "disparatado", "divertido",
                         "desquiciado", "demente", "gracioso", "excéntrico", "extravagante",
@@ -336,7 +336,7 @@ const emojiData = {
                 },
                 "🤨": {
                     name: "Cara con ceja levantada",
-                    description: "Una cara con una ceja levantada. Expresa escepticismo, desconfianza o no estar convencido de algo.",
+                    description: "Una cara con una ceja levantada. Significa escepticismo, desconfianza o no estar convencido de algo.",
                     synonyms: [
                         "escéptico", "dudoso", "desconfiado", "incrédulo", "suspicaz",
                         "receloso", "cauteloso", "sospechoso", "dubitativo", "cuestionador",
@@ -379,7 +379,7 @@ const emojiData = {
                 },
                 "😎": {
                     name: "Cara sonriente con gafas de sol",
-                    description: "Una cara sonriente con gafas de sol oscuras. Expresa actitud cool, confianza o tranquilidad.",
+                    description: "Una cara sonriente con gafas de sol oscuras. Significa actitud cool, confianza o tranquilidad.",
                     synonyms: [
                         // Características físicas
                         "gafas de sol", "lentes oscuros", "lentes negros", "gafas negras",
@@ -397,7 +397,7 @@ const emojiData = {
                 },
                 "🤩": {
                     name: "Cara maravillada con estrellas",
-                    description: "Una cara sonriente con estrellas por ojos. Expresa asombro, admiración o estar deslumbrado por algo o alguien.",
+                    description: "Una cara sonriente con estrellas por ojos. Significa asombro, admiración o estar deslumbrado por algo o alguien.",
                     synonyms: [
                         "maravillado", "asombrado", "deslumbrado", "fascinado", "encantado",
                         "admirado", "impresionado", "extasiado", "entusiasmado", "alucinado",
@@ -421,7 +421,7 @@ const emojiData = {
                 },
                 "😏": {
                     name: "Cara con sonrisa pícara",
-                    description: "Una cara con una sonrisa torcida. Expresa satisfacción, picardía o insinuación.",
+                    description: "Una cara con una sonrisa torcida. Su significado es de satisfacción, picardía o insinuación.",
                     synonyms: [
                         "pícaro", "astuto", "malicioso", "insinuante", "sugerente",
                         "presumido", "confiado", "sagaz", "ladino", "travieso",
@@ -433,7 +433,7 @@ const emojiData = {
                 },
                 "😒": {
                     name: "Cara de desagrado",
-                    description: "Una cara con ojos entrecerrados y boca torcida. Expresa descontento, escepticismo o fastidio.",
+                    description: "Una cara con ojos entrecerrados y boca torcida. Significa descontento, escepticismo o fastidio.",
                     synonyms: [
                         "desagrado", "fastidio", "molestia", "disgusto", "descontento",
                         "hartazgo", "irritación", "enfado", "molesto", "hastiado",
@@ -445,7 +445,7 @@ const emojiData = {
                 },
                 "😞": {
                     name: "Cara decepcionada",
-                    description: "Una cara con ojos y cejas caídas. Expresa decepción, tristeza o pesar.",
+                    description: "Una cara con ojos y cejas caídas. Significa decepción, tristeza o pesar.",
                     synonyms: [
                         "decepcionado", "triste", "desilusionado", "apenado", "desanimado",
                         "desalentado", "abatido", "deprimido", "descorazonado", "afligido",
@@ -457,7 +457,7 @@ const emojiData = {
                 },
                 "😔": {
                     name: "Cara pensativa",
-                    description: "Una cara con ojos cerrados y expresión pensativa. Expresa reflexión, melancolía o preocupación.",
+                    description: "Una cara con ojos cerrados y expresión pensativa. Significa reflexión, melancolía o preocupación.",
                     synonyms: [
                         "pensativo", "reflexivo", "meditabundo", "melancólico", "contemplativo",
                         "preocupado", "ensimismado", "absorto", "cabizbajo", "nostálgico",
@@ -469,7 +469,7 @@ const emojiData = {
                 },
                 "😟": {
                     name: "Cara preocupada",
-                    description: "Una cara con cejas arqueadas hacia arriba y boca hacia abajo. Expresa preocupación, angustia o inquietud.",
+                    description: "Una cara con cejas arqueadas hacia arriba y boca hacia abajo. Significa preocupación, angustia o inquietud.",
                     synonyms: [
                         "preocupado", "angustiado", "inquieto", "intranquilo", "ansioso",
                         "nervioso", "alarmado", "perturbado", "agobiado", "tenso",
@@ -481,7 +481,7 @@ const emojiData = {
                 },
                 "😕": {
                     name: "Cara confundida",
-                    description: "Una cara con cejas arqueadas y boca torcida. Expresa confusión, duda o perplejidad.",
+                    description: "Una cara con cejas arqueadas y boca torcida. Significa confusión, duda o perplejidad.",
                     synonyms: [
                         "confundido", "perplejo", "desconcertado", "dudoso", "indeciso",
                         "desorientado", "perdido", "extrañado", "aturdido", "vacilante",
@@ -493,7 +493,7 @@ const emojiData = {
                 },
                 "🙁": {
                     name: "Cara ligeramente triste",
-                    description: "Una cara con cejas y boca ligeramente hacia abajo. Expresa leve tristeza o descontento.",
+                    description: "Una cara con cejas y boca ligeramente hacia abajo. Significa leve tristeza o descontento.",
                     synonyms: [
                         "triste", "descontento", "desanimado", "apagado", "decaído",
                         "afligido", "apenado", "desilusionado", "desalentado", "abatido",
@@ -505,7 +505,7 @@ const emojiData = {
                 },
                 "☹️": {
                     name: "Cara triste",
-                    description: "Una cara con cejas y boca muy hacia abajo. Expresa tristeza profunda o gran descontento.",
+                    description: "Una cara con cejas y boca muy hacia abajo. Significa tristeza profunda o gran descontento.",
                     synonyms: [
                         "muy triste", "apenado", "afligido", "desconsolado", "abatido",
                         "deprimido", "desolado", "acongojado", "apesadumbrado", "entristecido",
@@ -517,7 +517,7 @@ const emojiData = {
                 },
                 "😣": {
                     name: "Cara perseverante",
-                    description: "Una cara con ojos fuertemente cerrados. Expresa perseverancia, esfuerzo o frustración.",
+                    description: "Una cara con ojos fuertemente cerrados. Significa perseverancia, esfuerzo o frustración.",
                     synonyms: [
                         "perseverante", "esforzado", "frustrado", "tenaz", "persistente",
                         "determinado", "empeñado", "obstinado", "luchador", "resistente",
@@ -529,7 +529,7 @@ const emojiData = {
                 },
                 "😖": {
                     name: "Cara confundida y angustiada",
-                    description: "Una cara con ojos cerrados y boca torcida. Expresa confusión extrema, angustia o frustración.",
+                    description: "Una cara con ojos cerrados y boca torcida. Significa confusión extrema, angustia o frustración.",
                     synonyms: [
                         "angustiado", "frustrado", "desesperado", "agobiado", "estresado",
                         "abrumado", "saturado", "sobrepasado", "colapsado", "desbordado",
@@ -541,7 +541,7 @@ const emojiData = {
                 },
                 "😫": {
                     name: "Cara cansada",
-                    description: "Una cara con ojos cerrados y boca abierta. Expresa cansancio extremo, agotamiento o frustración.",
+                    description: "Una cara con ojos cerrados y boca abierta. Significa cansancio extremo, agotamiento o frustración.",
                     synonyms: [
                         // Características físicas
                         "ojos cerrados", "boca abierta", "cara agotada",
@@ -560,7 +560,7 @@ const emojiData = {
                 },
                 "😩": {
                     name: "Cara agotada",
-                    description: "Una cara con ojos cerrados y boca abierta en gesto de lamento. Expresa agotamiento físico o emocional.",
+                    description: "Una cara con ojos cerrados y boca abierta en gesto de lamento. Su significado es de agotamiento físico o emocional.",
                     synonyms: [
                         // Características físicas
                         "ojos cerrados", "boca abierta", "cara agotada",
@@ -577,7 +577,7 @@ const emojiData = {
                 },
                 "🥺": {
                     name: "Cara suplicante",
-                    description: "Una cara con ojos grandes y brillantes, cejas arqueadas hacia arriba. Expresa súplica, ruego o ternura.",
+                    description: "Una cara con ojos grandes y brillantes, cejas arqueadas hacia arriba. Significa súplica, ruego o ternura.",
                     synonyms: [
                         // Características físicas
                         "ojos grandes", "ojos brillantes", "cejas arqueadas",
@@ -596,7 +596,7 @@ const emojiData = {
                 },
                 "😢": {
                     name: "Cara llorando",
-                    description: "Una cara con una lágrima cayendo por la mejilla. Expresa tristeza, pena o dolor emocional.",
+                    description: "Una cara con una lágrima cayendo por la mejilla. Significa tristeza, pena o dolor emocional.",
                     synonyms: [
                         // Características físicas
                         "lágrima", "gota cayendo", "lágrima en la mejilla",
@@ -615,7 +615,7 @@ const emojiData = {
                 },
                 "😭": {
                     name: "Cara llorando fuerte",
-                    description: "Una cara con ojos cerrados y lágrimas fluyendo abundantemente. Expresa llanto intenso o dolor emocional profundo.",
+                    description: "Una cara con ojos cerrados y lágrimas fluyendo abundantemente. Significa llanto intenso o dolor emocional profundo.",
                     synonyms: [
                         "llorando fuerte", "sollozando", "desconsolado", "destrozado", "devastado",
                         "desgarrado", "desolado", "desesperado", "angustiado", "sufriendo",
@@ -627,7 +627,7 @@ const emojiData = {
                 },
                 "😤": {
                     name: "Cara con vapor por la nariz",
-                    description: "Una cara con vapor saliendo por la nariz. Expresa frustración, enfado o determinación.",
+                    description: "Una cara con vapor saliendo por la nariz. Significa frustración, enfado o determinación.",
                     synonyms: [
                         // Características físicas
                         "vapor en la nariz", "humo por la nariz", "resoplando",
@@ -646,7 +646,7 @@ const emojiData = {
                 },
                 "😠": {
                     name: "Cara enojada",
-                    description: "Una cara con cejas fruncidas y boca seria. Expresa enojo, molestia o irritación.",
+                    description: "Una cara con cejas fruncidas y boca seria. Significa enojo, molestia o irritación.",
                     synonyms: [
                         "enojado", "molesto", "irritado", "enfadado", "furioso",
                         "disgustado", "indignado", "airado", "cabreado", "malhumorado",
@@ -658,7 +658,7 @@ const emojiData = {
                 },
                 "😡": {
                     name: "Cara enojada roja",
-                    description: "Una cara roja con cejas fruncidas y boca seria. Expresa ira intensa o furia.",
+                    description: "Una cara roja con cejas fruncidas y boca seria. Significa ira intensa o furia.",
                     synonyms: [
                         // Características físicas
                         "cara roja", "cejas fruncidas", "ceño fruncido", 
@@ -677,7 +677,7 @@ const emojiData = {
                 },
                 "🤬": {
                     name: "Cara maldiciendo",
-                    description: "Una cara roja con símbolos sobre la boca. Expresa ira extrema, maldiciones o palabras fuertes.",
+                    description: "Una cara roja con símbolos sobre la boca. Su significado es de ira extrema, maldiciones o palabras fuertes.",
                     synonyms: [
                         // Características físicas
                         "cara roja con símbolos", "boca censurada", "símbolos en boca",
@@ -696,7 +696,7 @@ const emojiData = {
                 },
                 "🤯": {
                     name: "Cara explotando",
-                    description: "Una cara con la parte superior de la cabeza explotando. Expresa asombro extremo, shock o sobrecarga mental.",
+                    description: "Una cara con la parte superior de la cabeza explotando. Significa asombro extremo, shock o sobrecarga mental.",
                     synonyms: [
                         // Características físicas
                         "cabeza explotando", "explosión en la cabeza", "mente estallando",
@@ -715,7 +715,7 @@ const emojiData = {
                 },
                 "😳": {
                     name: "Cara sonrojada",
-                    description: "Una cara con ojos muy abiertos y mejillas sonrojadas. Expresa vergüenza, sorpresa o incomodidad.",
+                    description: "Una cara con ojos muy abiertos y mejillas sonrojadas. Significa vergüenza, sorpresa o incomodidad.",
                     synonyms: [
                         // Características físicas
                         "mejillas rojas", "ojos abiertos", "cara ruborizada",
@@ -733,7 +733,7 @@ const emojiData = {
                 },
                 "🥵": {
                     name: "Cara acalorada",
-                    description: "Una cara roja con lengua afuera, sudando profusamente. Expresa calor extremo, agobio térmico o excitación intensa.",
+                    description: "Una cara roja con lengua afuera, sudando profusamente. Significa calor extremo, agobio térmico o excitación intensa.",
                     synonyms: [
                         // Características físicas
                         "cara roja", "sudando", "lengua afuera", "acalorado", "sofocado",
@@ -751,7 +751,7 @@ const emojiData = {
                 },
                 "🥶": {
                     name: "Cara helada",
-                    description: "Una cara azul temblando con dientes castañeteando. Expresa frío extremo, congelación o una situación escalofriante.",
+                    description: "Una cara azul temblando con dientes castañeteando. Significa frío extremo, congelación o una situación escalofriante.",
                     synonyms: [
                         // Características físicas
                         "cara azul", "temblando", "congelado", "tiritando", "helado",
@@ -769,7 +769,7 @@ const emojiData = {
                 },
                 "😱": {
                     name: "Cara gritando de miedo",
-                    description: "Una cara amarilla recreando el famoso cuadro 'El Grito' de Munch. Expresa terror extremo, pánico o sorpresa impactante.",
+                    description: "Una cara amarilla recreando el famoso cuadro 'El Grito' de Munch. Significa terror extremo, pánico o sorpresa impactante.",
                     synonyms: [
                         // Características físicas
                         "boca abierta", "mejillas alzadas", "ojos desorbitados", "manos en la cara",
@@ -787,7 +787,7 @@ const emojiData = {
                 },
                 "😨": {
                     name: "Cara de miedo",
-                    description: "Una cara con ojos muy abiertos y cejas arqueadas hacia arriba. Expresa miedo, ansiedad o preocupación intensa.",
+                    description: "Una cara con ojos muy abiertos y cejas arqueadas hacia arriba. Significa miedo, ansiedad o preocupación intensa.",
                     synonyms: [
                         // Características físicas
                         "ojos abiertos", "cejas arqueadas", "boca tensa", "expresión asustada",
@@ -805,7 +805,7 @@ const emojiData = {
                 },
                 "😰": {
                     name: "Cara preocupada con sudor",
-                    description: "Una cara azulada con sudor en la frente y boca abierta. Expresa ansiedad, preocupación o nerviosismo intenso.",
+                    description: "Una cara azulada con sudor en la frente y boca abierta. Significa ansiedad, preocupación o nerviosismo intenso.",
                     synonyms: [
                         // Características físicas
                         "sudando frío", "cara azulada", "boca abierta", "gota de sudor",
@@ -1039,7 +1039,7 @@ const emojiData = {
                 },
                 "😮": {
                     name: "Cara con la boca abierta",
-                    description: "Una cara con la boca formando una O perfecta. Expresa sorpresa, asombro o estado de shock.",
+                    description: "Una cara con la boca formando una O perfecta. Significa sorpresa, asombro o estado de shock.",
                     synonyms: [
                         // Características físicas
                         "boca abierta", "boca redonda", "cara sorprendida",
@@ -1058,7 +1058,7 @@ const emojiData = {
                 },
                 "😲": {
                     name: "Cara con la boca abierta asombrada",
-                    description: "Una cara con ojos muy abiertos y boca en forma de O. Expresa asombro intenso o sorpresa extrema.",
+                    description: "Una cara con ojos muy abiertos y boca en forma de O. Su significado es de asombro intenso o sorpresa extrema.",
                     synonyms: [
                         // Características físicas
                         "ojos grandes", "boca muy abierta", "cara impactada",
@@ -1077,7 +1077,7 @@ const emojiData = {
                 },
                 "🥱": {
                     name: "Cara bostezando",
-                    description: "Una cara con la boca muy abierta bostezando y ojos cerrados. Expresa cansancio, aburrimiento o somnolencia.",
+                    description: "Una cara con la boca muy abierta bostezando y ojos cerrados. Significa cansancio, aburrimiento o somnolencia.",
                     synonyms: [
                         // Características físicas
                         "bostezando", "boca abierta", "ojos cerrados",
@@ -1115,7 +1115,7 @@ const emojiData = {
                 },
                 "🤤": {
                     name: "Cara con baba",
-                    description: "Una cara con la boca entreabierta y un hilo de baba. Expresa deseo intenso por algo, generalmente comida, o un estado de ensoñación.",
+                    description: "Una cara con la boca entreabierta y un hilo de baba. Su significado es de deseo intenso por algo, generalmente comida, o un estado de ensoñación.",
                     synonyms: [
                         // Características físicas
                         "babeando", "boca entreabierta", "saliva cayendo",
@@ -1153,7 +1153,7 @@ const emojiData = {
                 },
                 "🤐": {
                     name: "Cara con boca cerrada por cremallera",
-                    description: "Una cara con una cremallera en lugar de boca. Expresa la acción de mantener silencio o guardar un secreto.",
+                    description: "Una cara con una cremallera en lugar de boca. Su significado es mantener silencio o guardar un secreto.",
                     synonyms: [
                         // Características físicas
                         "boca con cremallera", "boca cerrada", "cara silenciada",
@@ -1172,7 +1172,7 @@ const emojiData = {
                 },
                 "🤢": {
                     name: "Cara nauseabunda",
-                    description: "Una cara verde con expresión de náusea o asco. Expresa malestar físico o repulsión ante algo.",
+                    description: "Una cara verde con expresión de náusea o asco. Significa malestar físico o repulsión ante algo.",
                     synonyms: [
                         // Características físicas
                         "cara verde", "expresión de asco", "rostro enfermo",
