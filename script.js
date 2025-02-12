@@ -7,7 +7,7 @@ const emojiData = {
         },
         people: {
             title: "Emoticonos y personas",
-            emojis: ["😀", "😃", "😄", "😁", "😆", "😅", "😂", "🤣", "😊", "😇", "🙂", "🙃", "😉", "😌", "😍", "🥰", "😘", "😗", "😙", "😚", "😋", "😛", "😝", "😜", "🤪", "🤨", "🧐", "🤓", "😎", "🤩", "🥳", "😏", "😒", "😞", "😔", "😟", "😕", "🙁", "☹️", "😣", "😖", "😫", "😩", "🥺", "😢", "😭", "😤", "😠", "😡", "🤬", "🤯", "😳", "🥵", "🥶", "😱", "😨", "😰"],
+            emojis: ["😀", "😃", "😄", "😁", "😆", "😅", "😂", "🤣", "😊", "😇", "🙂", "🙃", "😉", "😌", "😍", "🥰", "😘", "😗", "😙", "😚", "😋", "😛", "😝", "😜", "🤪", "🤨", "🧐", "🤓", "😎", "🤩", "🥳", "😏", "😒", "😞", "😔", "😟", "😕", "🙁", "☹️", "😣", "😖", "😫", "😩", "🥺", "😢", "😭", "😤", "😠", "😡", "🤬", "🤯", "😳", "🥵", "🥶", "😱", "😨", "😰", "😥", "😓", "🤗", "🤔", "🤭"],
             keywords: {
                 "😀": {
                     name: "Cara sonriente",
@@ -819,6 +819,96 @@ const emojiData = {
                         "con el alma en un hilo", "sudando la gota gorda",
                         // Elementos
                         "sudor frío", "ansiedad", "preocupación", "angustia", "nervios"
+                    ]
+                },
+                "😥": {
+                    name: "Cara triste pero aliviada",
+                    description: "Una cara con cejas arqueadas, ojos cerrados y una gota de sudor, con expresión de alivio mezclado con tristeza.",
+                    synonyms: [
+                        // Características físicas
+                        "ojos cerrados", "cejas arqueadas", "gota de sudor", "boca triste",
+                        // Estados emocionales
+                        "aliviado", "triste", "melancólico", "resignado", "desahogado",
+                        // Regionalismos España
+                        "apesadumbrado", "desconsolado", "reconfortado",
+                        // Regionalismos Latinoamérica
+                        "desganado", "achicopalado", "tranquilizado",
+                        // Términos coloquiales
+                        "con el alma en vilo", "con un peso menos",
+                        // Elementos visuales
+                        "lágrima", "sudor", "expresión de alivio"
+                    ]
+                },
+                "😓": {
+                    name: "Cara triste con sudor",
+                    description: "Una cara con ojos cerrados, cejas caídas y sudor en la frente, expresando agotamiento y tristeza.",
+                    synonyms: [
+                        // Características físicas
+                        "sudoroso", "ojos cerrados", "cejas caídas", "gesto agotado",
+                        // Estados emocionales
+                        "exhausto", "agobiado", "estresado", "abrumado", "desanimado",
+                        // Regionalismos España
+                        "hecho polvo", "destrozado", "chafado",
+                        // Regionalismos Latinoamérica
+                        "agotado", "reventado", "fundido",
+                        // Términos coloquiales
+                        "sudando la gota gorda", "con el alma por los suelos",
+                        // Elementos visuales
+                        "sudor", "expresión agotada", "gesto de cansancio"
+                    ]
+                },
+                "🤗": {
+                    name: "Cara sonriente abrazando",
+                    description: "Una cara sonriente con manos abiertas que simulan un abrazo, expresando calidez y afecto.",
+                    synonyms: [
+                        // Características físicas
+                        "brazos abiertos", "sonrisa cálida", "gesto acogedor", "manos extendidas",
+                        // Estados emocionales
+                        "cariñoso", "afectuoso", "acogedor", "amistoso", "reconfortante",
+                        // Regionalismos España
+                        "entrañable", "cercano", "majete",
+                        // Regionalismos Latinoamérica
+                        "amoroso", "apapachador", "chinchoso",
+                        // Términos coloquiales
+                        "dar un abrazo de oso", "achuchón",
+                        // Elementos visuales
+                        "abrazo", "gesto de cariño", "expresión acogedora"
+                    ]
+                },
+                "🤔": {
+                    name: "Cara pensando",
+                    description: "Una cara con ceja arqueada y mano en la barbilla, en gesto reflexivo y contemplativo.",
+                    synonyms: [
+                        // Características físicas
+                        "mano en barbilla", "ceja arqueada", "gesto reflexivo", "mirada pensativa",
+                        // Estados emocionales
+                        "pensativo", "reflexivo", "contemplativo", "dubitativo", "analítico",
+                        // Regionalismos España
+                        "caviloso", "ensimismado", "meditabundo",
+                        // Regionalismos Latinoamérica
+                        "concentrado", "pensador", "filosófico",
+                        // Términos coloquiales
+                        "dándole vueltas", "rascándose la barbilla",
+                        // Elementos visuales
+                        "gesto pensativo", "expresión dudosa", "pose reflexiva"
+                    ]
+                },
+                "🤭": {
+                    name: "Cara sonrojada sobre la boca",
+                    description: "Una cara con ojos sonrientes y mano cubriendo una sonrisa, expresando timidez o picardía.",
+                    synonyms: [
+                        // Características físicas
+                        "mano en boca", "ojos sonrientes", "mejillas sonrojadas", "gesto tímido",
+                        // Estados emocionales
+                        "travieso", "pícaro", "tímido", "juguetón", "avergonzado",
+                        // Regionalismos España
+                        "ruborizado", "cortado", "pillín",
+                        // Regionalismos Latinoamérica
+                        "penoso", "chaparro", "chismoso",
+                        // Términos coloquiales
+                        "con la risa floja", "tapándose la boca",
+                        // Elementos visuales
+                        "sonrojo", "gesto de sorpresa", "expresión pícara"
                     ]
                 },
             }
