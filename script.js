@@ -7,7 +7,7 @@ const emojiData = {
         },
         people: {
             title: "Emoticonos y personas",
-            emojis: ["😀", "😃", "😄", "😁", "😆", "😅", "😂", "🤣", "😊", "😇", "🙂", "🙃", "😉", "😌", "😍", "🥰", "😘", "😗", "😙", "😚", "😋", "😛", "😝", "😜", "🤪", "🤨", "🧐", "🤓", "😎", "🤩", "🥳", "😏", "😒", "😞", "😔", "😟", "😕", "🙁", "☹️", "😣", "😖", "😫", "😩", "🥺", "😢", "😭", "😤", "😠", "😡", "🤬", "🤯", "😳", "🥵", "🥶", "😱", "😨", "😰", "😥", "😓", "🤗", "🤔", "🤭", "🤫", "🤥", "😶", "😑", "😵", "😬", "🙄", "😮", "😲", "🥱", "😴", "🤤", "😪", "🤐", "🤢", "🤮", "🤧", "🥴"],
+            emojis: ["😀", "😃", "😄", "😁", "😆", "😅", "😂", "🤣", "😊", "😇", "🙂", "🙃", "😉", "😌", "😍", "🥰", "😘", "😗", "😙", "😚", "😋", "😛", "😝", "😜", "🤪", "🤨", "🧐", "🤓", "😎", "🤩", "🥳", "😏", "😒", "😞", "😔", "😟", "😕", "🙁", "☹️", "😣", "😖", "😫", "😩", "🥺", "😢", "😭", "😤", "😠", "😡", "🤬", "🤯", "😳", "🥵", "🥶", "😱", "😨", "😰", "😥", "😓", "🤗", "🤔", "🤭", "🤫", "🤥", "😶", "😑", "😵", "😬", "🙄", "😮", "😲", "🥱", "😴", "🤤", "😪", "🤐", "🤢", "🤮", "🤧", "🥴", "😷", "🤒", "🤕", "🤑", "🤠", "😈", "👿", "👹"],
             keywords: {
                 "😀": {
                     name: "Cara sonriente",
@@ -1246,6 +1246,158 @@ const emojiData = {
                         "emoji mareado", "cara confusa", "rostro aturdido"
                     ]
                 },
+                "😷": {
+                    name: "Cara con mascarilla",
+                    description: "Una cara usando una mascarilla médica. Su significado es de protección contra enfermedades, precaución sanitaria o estar enfermo.",
+                    synonyms: [
+                        // Características físicas
+                        "mascarilla médica", "tapabocas", "cubrebocas",
+                        "rostro protegido", "cara cubierta", "máscara sanitaria",
+                        // Estados emocionales
+                        "precavido", "protegido", "cuidadoso", "preventivo",
+                        "consciente", "responsable", "cauteloso",
+                        // Regionalismos
+                        "barbijo", "nasobuco", "mascareta", "tapaboca",
+                        // Términos coloquiales
+                        "con la máscara", "protegido", "cuidándose",
+                        "evitando contagios", "prevenido",
+                        // Elementos visuales
+                        "emoji con mascarilla", "cara protegida", "rostro con máscara"
+                    ]
+                },
+                "🤒": {
+                    name: "Cara con termómetro",
+                    description: "Una cara con expresión enferma y un termómetro. Significa estar enfermo, tener fiebre o malestar físico.",
+                    synonyms: [
+                        // Características físicas
+                        "termómetro", "cara enferma", "rostro febril",
+                        "expresión doliente", "gesto enfermizo", "cara con fiebre",
+                        // Estados emocionales
+                        "enfermo", "febril", "indispuesto", "débil",
+                        "decaído", "maltrecho", "convaleciente",
+                        // Regionalismos
+                        "afiebrado", "acalenturado", "maluco", "pachuco",
+                        // Términos coloquiales
+                        "con temperatura", "con calentura", "malo",
+                        "en cama", "con gripe",
+                        // Elementos visuales
+                        "emoji enfermo", "cara con termómetro", "rostro febril"
+                    ]
+                },
+                "🤕": {
+                    name: "Cara con vendaje",
+                    description: "Una cara con un vendaje en la cabeza. Significa estar herido, lesionado o en recuperación de una lesión.",
+                    synonyms: [
+                        // Características físicas
+                        "vendaje", "venda en la cabeza", "cara vendada",
+                        "rostro lastimado", "cabeza vendada", "herida cubierta",
+                        // Estados emocionales
+                        "herido", "lastimado", "adolorido", "lesionado",
+                        "accidentado", "golpeado", "magullado",
+                        // Regionalismos
+                        "machucado", "aporreado", "maltrecho", "cascado",
+                        // Términos coloquiales
+                        "con un chichón", "vendado", "accidentado",
+                        "golpeado", "con curita",
+                        // Elementos visuales
+                        "emoji vendado", "cara herida", "rostro con vendaje"
+                    ]
+                },
+                "🤑": {
+                    name: "Cara con ojos de dinero",
+                    description: "Una cara con signos de dólar en los ojos y lengua fuera. Significa codicia, amor por el dinero o éxito financiero.",
+                    synonyms: [
+                        // Características físicas
+                        "ojos de dólar", "lengua fuera", "cara codiciosa",
+                        "rostro ambicioso", "expresión avara", "gesto de riqueza",
+                        // Estados emocionales
+                        "codicioso", "ambicioso", "avaricioso", "materialista",
+                        "rico", "adinerado", "próspero",
+                        // Regionalismos
+                        "forrado", "platudo", "billetudo", "acaudalado",
+                        // Términos coloquiales
+                        "con dinero", "con pasta", "con plata",
+                        "millonario", "con billetes",
+                        // Elementos visuales
+                        "emoji rico", "cara con dinero", "rostro codicioso"
+                    ]
+                },
+                "🤠": {
+                    name: "Cara con sombrero vaquero",
+                    description: "Una cara sonriente con sombrero de vaquero. Significa espíritu aventurero, estilo western o actitud despreocupada.",
+                    synonyms: [
+                        // Características físicas
+                        "sombrero vaquero", "cara cowboy", "rostro western",
+                        "sonrisa vaquera", "expresión aventurera", "gesto country",
+                        // Estados emocionales
+                        "aventurero", "intrépido", "valiente", "despreocupado",
+                        "relajado", "confiado", "audaz",
+                        // Regionalismos
+                        "ranchero", "gaucho", "llanero", "charro",
+                        // Términos coloquiales
+                        "cowboy", "vaquero", "del oeste",
+                        "pistolero", "sheriff",
+                        // Elementos visuales
+                        "emoji vaquero", "cara western", "rostro country"
+                    ]
+                },
+                "😈": {
+                    name: "Diablo sonriente",
+                    description: "Una cara sonriente púrpura con cuernos. Significa picardía, travesura o tener intenciones maliciosas de forma juguetona.",
+                    synonyms: [
+                        // Características físicas
+                        "cuernos", "cara púrpura", "sonrisa maliciosa",
+                        "rostro diabólico", "expresión traviesa", "gesto pícaro",
+                        // Estados emocionales
+                        "travieso", "pícaro", "malicioso", "juguetón",
+                        "bromista", "astuto", "diabólico",
+                        // Regionalismos
+                        "diablillo", "demonio", "cachudo", "cornudo",
+                        // Términos coloquiales
+                        "haciendo maldades", "con malas intenciones",
+                        "tramando algo", "siendo malo",
+                        // Elementos visuales
+                        "emoji diablo", "cara diabólica", "rostro malicioso"
+                    ]
+                },
+                "👿": {
+                    name: "Diablo enojado",
+                    description: "Una cara púrpura enfadada con cuernos. Significa enojo intenso, maldad o intenciones maliciosas serias.",
+                    synonyms: [
+                        // Características físicas
+                        "cuernos", "cara púrpura", "ceño fruncido",
+                        "rostro enfadado", "expresión malvada", "gesto amenazante",
+                        // Estados emocionales
+                        "enojado", "malvado", "furioso", "amenazante",
+                        "vengativo", "rencoroso", "hostil",
+                        // Regionalismos
+                        "endemoniado", "enfurecido", "embravecido", "iracundo",
+                        // Términos coloquiales
+                        "echando chispas", "echando humo",
+                        "con malas pulgas", "del demonio",
+                        // Elementos visuales
+                        "emoji demonio", "cara maligna", "rostro diabólico"
+                    ]
+                },
+                "👹": {
+                    name: "Ogro",
+                    description: "Una cara roja con colmillos y expresión feroz, basada en el oni japonés. Significa ferocidad, monstruosidad o fuerza intimidante.",
+                    synonyms: [
+                        // Características físicas
+                        "cara roja", "colmillos", "rostro monstruoso",
+                        "expresión feroz", "gesto amenazante", "rasgos demoníacos",
+                        // Estados emocionales
+                        "feroz", "intimidante", "monstruoso", "temible",
+                        "amenazante", "aterrador", "terrorífico",
+                        // Regionalismos
+                        "oni", "demonio japonés", "monstruo", "bestia",
+                        // Términos coloquiales
+                        "cara de ogro", "monstruo terrible",
+                        "criatura temible", "bestia feroz",
+                        // Elementos visuales
+                        "emoji ogro", "cara monstruosa", "rostro demoníaco"
+                    ]
+                }
             }
         },
         animals: {
