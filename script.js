@@ -1397,6 +1397,196 @@ const emojiData = {
                         // Elementos visuales
                         "emoji ogro", "cara monstruosa", "rostro demoníaco"
                     ]
+                },
+                "🤡": {
+                    name: "¿Qué significa el emoji del payaso?",
+                    description: "Una cara de payaso con maquillaje colorido, nariz roja y pelo rizado. Representa diversión, entretenimiento o situaciones cómicas, aunque también puede usarse irónicamente.",
+                    synonyms: [
+                        // Características físicas
+                        "maquillaje de payaso", "nariz roja", "pelo rizado",
+                        "cara pintada", "sonrisa exagerada", "mejillas rojas",
+                        // Estados emocionales
+                        "divertido", "gracioso", "entretenido", "festivo",
+                        "cómico", "burlón", "juguetón",
+                        // Regionalismos
+                        "bufón", "arlequín", "saltimbanqui", "augusto",
+                        // Términos coloquiales
+                        "hacer el payaso", "payasear", "bromista",
+                        "hacer reír", "animador",
+                        // Elementos visuales
+                        "emoji payaso", "cara de payaso", "rostro circense"
+                    ]
+                },
+                "💩": {
+                    name: "¿Qué significa el emoji de la popo?",
+                    description: "Una pila de excremento marrón con ojos y sonrisa amigable. Se usa para representar situaciones desagradables o como forma humorística de expresar frustración.",
+                    synonyms: [
+                        // Características físicas
+                        "montón marrón", "ojos sonrientes", "expresión alegre",
+                        "forma espiral", "textura suave", "aspecto caricaturesco",
+                        // Estados emocionales
+                        "desagradable", "humorístico", "frustrante", "molesto",
+                        "incómodo", "fastidioso", "irritante",
+                        // Regionalismos
+                        "caca", "excremento", "deposición", "heces",
+                        // Términos coloquiales
+                        "popó", "caquita", "mojón",
+                        "plasta", "porquería",
+                        // Elementos visuales
+                        "emoji popo", "cara sonriente marrón", "emoticono fecal"
+                    ]
+                },
+                "👻": {
+                    name: "¿Qué significa el emoji del fantasma?",
+                    description: "Un fantasma blanco y amigable con ojos grandes y negros. Representa lo sobrenatural, el misterio o situaciones fantasmales de manera juguetona.",
+                    synonyms: [
+                        // Características físicas
+                        "forma espectral", "cuerpo blanco", "ojos negros",
+                        "silueta flotante", "aspecto etéreo", "forma ondulante",
+                        // Estados emocionales
+                        "misterioso", "juguetón", "travieso", "sobrenatural",
+                        "enigmático", "intrigante", "fantasmal",
+                        // Regionalismos
+                        "espectro", "aparición", "ánima", "espíritu",
+                        // Términos coloquiales
+                        "fantasmita", "alma en pena", "aparecido",
+                        "espanto", "ser del más allá",
+                        // Elementos visuales
+                        "emoji fantasma", "cara espectral", "figura flotante"
+                    ]
+                },
+                "💀": {
+                    name: "¿Qué significa el emoji de la calavera?",
+                    description: "Una calavera humana blanca vista de frente. Simboliza la muerte, el peligro o puede usarse en contextos humorísticos relacionados con situaciones extremas.",
+                    synonyms: [
+                        // Características físicas
+                        "cráneo blanco", "cuencas vacías", "mandíbula ósea",
+                        "estructura ósea", "dientes expuestos", "forma craneal",
+                        // Estados emocionales
+                        "mortal", "peligroso", "amenazante", "letal",
+                        "fatal", "extremo", "terminal",
+                        // Regionalismos
+                        "muerte", "testa", "cráneo", "esqueleto",
+                        // Términos coloquiales
+                        "calaca", "huesuda", "parca",
+                        "la pelona", "la muerte",
+                        // Elementos visuales
+                        "emoji calavera", "símbolo mortal", "icono de muerte"
+                    ]
+                },
+                "☠️": {
+                    name: "¿Qué significa el emoji de la calavera con huesos cruzados?",
+                    description: "Una calavera blanca con dos huesos cruzados debajo. Símbolo tradicional de peligro o veneno, también conocido como 'jolly roger' en contexto pirata.",
+                    synonyms: [
+                        // Características físicas
+                        "calavera y tibias", "huesos cruzados", "símbolo pirata",
+                        "emblema tóxico", "señal de peligro", "marca mortal",
+                        // Estados emocionales
+                        "peligroso", "mortal", "tóxico", "amenazante",
+                        "letal", "nocivo", "venenoso",
+                        // Regionalismos
+                        "bandera pirata", "jolly roger", "símbolo de veneno", "peligro de muerte",
+                        // Términos coloquiales
+                        "calavera pirata", "símbolo tóxico", "señal de peligro",
+                        "marca de veneno", "advertencia mortal",
+                        // Elementos visuales
+                        "emoji veneno", "símbolo pirata", "advertencia de muerte"
+                    ]
+                },
+                "👽": {
+                    name: "¿Qué significa el emoji del alienígena verde?",
+                    description: "Un rostro extraterrestre gris-verdoso con ojos grandes y negros. Representa lo extraterrestre, lo desconocido o situaciones fuera de lo común.",
+                    synonyms: [
+                        // Características físicas
+                        "cabeza grande", "ojos negros", "piel verdosa",
+                        "rostro alienígena", "forma ovalada", "rasgos extraterrestres",
+                        // Estados emocionales
+                        "extraño", "misterioso", "desconocido", "inusual",
+                        "foráneo", "extraordinario", "singular",
+                        // Regionalismos
+                        "extraterrestre", "marciano", "ser espacial", "visitante",
+                        // Términos coloquiales
+                        "ET", "marcianito", "hombrecito verde",
+                        "ser de otro planeta", "alien",
+                        // Elementos visuales
+                        "emoji alien", "cara extraterrestre", "rostro espacial"
+                    ]
+                },
+                "👾": {
+                    name: "¿Qué significa el emoji del monstruo de videojuegos?",
+                    description: "Un alienígena pixelado de color morado inspirado en los videojuegos arcade clásicos. Representa la cultura gamer y la nostalgia por los videojuegos retro.",
+                    synonyms: [
+                        // Características físicas
+                        "forma pixelada", "color morado", "diseño retro",
+                        "aspecto arcade", "estilo 8-bits", "alien videojuego",
+                        // Estados emocionales
+                        "nostálgico", "lúdico", "divertido", "retro",
+                        "jugador", "gamer", "arcade",
+                        // Regionalismos
+                        "marciano pixelado", "invasor espacial", "alien de juego", "monstruo digital",
+                        // Términos coloquiales
+                        "bicho de arcade", "monstruito", "invasor",
+                        "enemigo del juego", "sprite",
+                        // Elementos visuales
+                        "emoji videojuego", "alien arcade", "monstruo 8-bits"
+                    ]
+                },
+                "🤖": {
+                    name: "¿Qué significa el emoji del robot?",
+                    description: "Un rostro robótico metálico con antena. Representa la tecnología, la automatización o comportamientos mecánicos y poco naturales.",
+                    synonyms: [
+                        // Características físicas
+                        "cara metálica", "antena", "ojos artificiales",
+                        "rostro mecánico", "aspecto androide", "diseño futurista",
+                        // Estados emocionales
+                        "automático", "mecánico", "artificial", "tecnológico",
+                        "programado", "sistemático", "robótico",
+                        // Regionalismos
+                        "androide", "autómata", "máquina", "bot",
+                        // Términos coloquiales
+                        "robotcito", "máquina", "aparato",
+                        "ser artificial", "chatbot",
+                        // Elementos visuales
+                        "emoji robot", "cara mecánica", "rostro artificial"
+                    ]
+                },
+                "🎃": {
+                    name: "¿Qué significa el emoji de la calabaza de Halloween?",
+                    description: "Una calabaza naranja tallada con rostro iluminado, típica de Halloween. Representa la festividad de Halloween, lo espeluznante o lo festivo-terrorífico.",
+                    synonyms: [
+                        // Características físicas
+                        "calabaza tallada", "rostro iluminado", "color naranja",
+                        "ojos triangulares", "sonrisa dentada", "jack-o'-lantern",
+                        // Estados emocionales
+                        "festivo", "espeluznante", "terrorífico", "divertido",
+                        "misterioso", "juguetón", "tenebroso",
+                        // Regionalismos
+                        "calabaza de Halloween", "linterna de Jack", "calabaza fantasma", "farola de calabaza",
+                        // Términos coloquiales
+                        "calabacita", "jack-o'-lantern", "calabaza terrorífica",
+                        "decoración Halloween", "calabaza fantasma",
+                        // Elementos visuales
+                        "emoji Halloween", "calabaza tallada", "linterna festiva"
+                    ]
+                },
+                "😺": {
+                    name: "¿Qué significa el emoji del gato sonriendo?",
+                    description: "Un rostro de gato amarillo con una sonrisa amplia y ojos abiertos. Representa felicidad, optimismo o situaciones positivas desde una perspectiva felina.",
+                    synonyms: [
+                        // Características físicas
+                        "cara de gato", "sonrisa felina", "ojos brillantes",
+                        "expresión alegre", "bigotes", "orejas puntiagudas",
+                        // Estados emocionales
+                        "feliz", "contento", "alegre", "optimista",
+                        "juguetón", "animado", "entusiasta",
+                        // Regionalismos
+                        "minino", "gatito", "felino", "michino",
+                        // Términos coloquiales
+                        "gatito feliz", "michi contento", "gato sonriente",
+                        "mascota alegre", "felino contento",
+                        // Elementos visuales
+                        "emoji gato", "cara felina", "rostro gatuno"
+                    ]
                 }
             }
         },
