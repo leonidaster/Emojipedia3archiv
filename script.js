@@ -1587,6 +1587,237 @@ const emojiData = {
                         // Elementos visuales
                         "emoji gato", "cara felina", "rostro gatuno"
                     ]
+                },
+                "😸": {
+                    name: "¿Qué significa el emoji del gato sonriendo con ojos cerrados?",
+                    description: "Un rostro de gato amarillo con una amplia sonrisa y ojos cerrados en forma de arco. Representa alegría intensa, satisfacción o risa contenida.",
+                    synonyms: [
+                        // Características físicas
+                        "gato sonriente", "ojos cerrados", "expresión feliz",
+                        "sonrisa amplia", "cara felina", "gesto alegre",
+                        // Estados emocionales
+                        "alegre", "risueño", "divertido", "satisfecho",
+                        "contento", "jubiloso", "radiante",
+                        // Regionalismos de España
+                        "gato contento", "minino feliz", "gato risueño",
+                        // Regionalismos de Latinoamérica
+                        "michi alegre", "gatito sonriente", "felino contento",
+                        // Términos coloquiales
+                        "gato feliz", "michi risueño", "gatito gracioso",
+                        "felino divertido", "mascota alegre",
+                        // Elementos visuales
+                        "emoji gato feliz", "cara de gato sonriente", "felino con sonrisa"
+                    ]
+                },
+                "😹": {
+                    name: "¿Qué significa el emoji del gato riendo con lágrimas?",
+                    description: "Un rostro de gato amarillo con ojos cerrados, boca abierta y lágrimas de risa. Representa diversión extrema, carcajadas o algo extremadamente gracioso.",
+                    synonyms: [
+                        // Características físicas
+                        "gato riendo", "lágrimas de risa", "ojos cerrados",
+                        "boca abierta", "expresión hilarante", "cara felina divertida",
+                        // Estados emocionales
+                        "divertido", "hilarante", "carcajada", "gracioso",
+                        "entretenido", "jocoso", "risueño",
+                        // Regionalismos de España
+                        "gato desternillado", "minino carcajeándose", "gato partiéndose de risa",
+                        // Regionalismos de Latinoamérica
+                        "michi muerto de risa", "gatito cagado de risa", "felino a carcajadas",
+                        // Términos coloquiales
+                        "gato llorando de risa", "michi atacado", "gatito desternillado",
+                        "felino muerto de risa", "mascota divertida",
+                        // Elementos visuales
+                        "emoji gato riendo", "cara de gato con lágrimas", "felino carcajeándose"
+                    ]
+                },
+                "😻": {
+                    name: "¿Qué significa el emoji del gato con ojos de corazón?",
+                    description: "Un rostro de gato amarillo con ojos en forma de corazón y sonrisa. Representa amor, admiración o estar enamorado desde una perspectiva felina.",
+                    synonyms: [
+                        // Características físicas
+                        "gato enamorado", "ojos de corazón", "mirada amorosa",
+                        "expresión adorable", "cara felina cariñosa", "sonrisa tierna",
+                        // Estados emocionales
+                        "enamorado", "amoroso", "adoración", "cariñoso",
+                        "encantado", "fascinado", "cautivado",
+                        // Regionalismos de España
+                        "gato enamoradizo", "minino embelesado", "gato encandilado",
+                        // Regionalismos de Latinoamérica
+                        "michi enamorado", "gatito flechado", "felino cautivado",
+                        // Términos coloquiales
+                        "gato con amor", "michi enamoradizo", "gatito derretido",
+                        "felino embobado", "mascota enamorada",
+                        // Elementos visuales
+                        "emoji gato enamorado", "cara de gato con corazones", "felino amoroso"
+                    ]
+                },
+                "😼": {
+                    name: "¿Qué significa el emoji del gato con sonrisa pícara?",
+                    description: "Un rostro de gato amarillo con una sonrisa torcida y ojos entrecerrados. Representa astucia, picardía o una actitud traviesa y maliciosa.",
+                    synonyms: [
+                        // Características físicas
+                        "gato astuto", "sonrisa torcida", "ojos entrecerrados",
+                        "expresión pícara", "cara felina maliciosa", "gesto travieso",
+                        // Estados emocionales
+                        "pícaro", "astuto", "malicioso", "insinuante", "sugerente",
+                        "presumido", "confiado", "sagaz", "ladino", "travieso",
+                        // Regionalismos de España
+                        "gato pillo", "minino truhán", "gato socarrón",
+                        // Regionalismos de Latinoamérica
+                        "michi pícaro", "gatito travieso", "felino mañoso",
+                        // Términos coloquiales
+                        "gato mañoso", "michi tramposo", "gatito astuto",
+                        "felino pillo", "mascota traviesa",
+                        // Elementos visuales
+                        "emoji gato pícaro", "cara de gato astuto", "felino malicioso"
+                    ]
+                },
+                "😽": {
+                    name: "¿Qué significa el emoji del gato dando beso?",
+                    description: "Un rostro de gato amarillo con ojos cerrados y labios fruncidos enviando un beso. Representa afecto, cariño o un gesto de amor tierno.",
+                    synonyms: [
+                        // Características físicas
+                        "gato besando", "labios fruncidos", "ojos cerrados",
+                        "expresión cariñosa", "cara felina afectuosa", "gesto amoroso",
+                        // Estados emocionales
+                        "cariñoso", "afectuoso", "tierno", "amoroso",
+                        "dulce", "romántico", "encantador",
+                        // Regionalismos de España
+                        "gato mimoso", "minino besucón", "gato cariñoso",
+                        // Regionalismos de Latinoamérica
+                        "michi besucón", "gatito amoroso", "felino tierno",
+                        // Términos coloquiales
+                        "gato cariñoso", "michi tierno", "gatito besucón",
+                        "felino amoroso", "mascota afectuosa",
+                        // Elementos visuales
+                        "emoji gato besando", "cara de gato con beso", "felino cariñoso"
+                    ]
+                },
+                "🙀": {
+                    name: "¿Qué significa el emoji del gato asustado con sus garras en la cara?",
+                    description: "Un rostro de gato amarillo con expresión de shock, ojos muy abiertos y garras en las mejillas. Representa miedo intenso, sorpresa o pánico.",
+                    synonyms: [
+                        // Características físicas
+                        "gato asustado", "garras en cara", "ojos abiertos",
+                        "expresión de shock", "cara felina aterrada", "gesto de pánico",
+                        // Estados emocionales
+                        "asustado", "aterrado", "sorprendido", "alarmado",
+                        "horrorizado", "espantado", "pasmado",
+                        // Regionalismos de España
+                        "gato espantado", "minino aterrorizado", "gato acojonado",
+                        // Regionalismos de Latinoamérica
+                        "michi asustado", "gatito espantado", "felino aterrado",
+                        // Términos coloquiales
+                        "gato en pánico", "michi horrorizado", "gatito asustadizo",
+                        "felino alarmado", "mascota espantada",
+                        // Elementos visuales
+                        "emoji gato asustado", "cara de gato con miedo", "felino aterrorizado"
+                    ]
+                },
+                "😿": {
+                    name: "¿Qué significa el emoji del gato llorando con una lágrima en la cara?",
+                    description: "Un rostro de gato amarillo con expresión triste y una lágrima cayendo. Representa tristeza, pena o desconsuelo desde una perspectiva felina.",
+                    synonyms: [
+                        // Características físicas
+                        "gato llorando", "lágrima cayendo", "ojos tristes",
+                        "expresión afligida", "cara felina apenada", "gesto melancólico",
+                        // Estados emocionales
+                        "triste", "apenado", "melancólico", "afligido",
+                        "desconsolado", "abatido", "deprimido",
+                        // Regionalismos de España
+                        "gato apenado", "minino triste", "gato compungido",
+                        // Regionalismos de Latinoamérica
+                        "michi triste", "gatito llorón", "felino desconsolado",
+                        // Términos coloquiales
+                        "gato llorón", "michi triste", "gatito afligido",
+                        "felino apenado", "mascota desconsolada",
+                        // Elementos visuales
+                        "emoji gato triste", "cara de gato llorando", "felino con lágrima"
+                    ]
+                },
+                "😾": {
+                    name: "¿Qué significa el emoji del gato enojado?",
+                    description: "Un rostro de gato amarillo con ceño fruncido y expresión de enfado. Representa molestia, irritación o indignación desde una perspectiva felina.",
+                    synonyms: [
+                        // Características físicas
+                        "gato enfadado", "ceño fruncido", "mirada molesta",
+                        "expresión irritada", "cara felina enojada", "gesto de disgusto",
+                        // Estados emocionales
+                        "enfadado", "molesto", "irritado", "indignado",
+                        "furioso", "enojado", "disgustado",
+                        // Regionalismos de España
+                        "gato cabreado", "minino enfurruñado", "gato mosqueado",
+                        // Regionalismos de Latinoamérica
+                        "michi enojado", "gatito molesto", "felino emberracado",
+                        // Términos coloquiales
+                        "gato gruñón", "michi enfurruñado", "gatito malhumorado",
+                        "felino irritado", "mascota enojada",
+                        // Elementos visuales
+                        "emoji gato enojado", "cara de gato con enfado", "felino molesto"
+                    ]
+                },
+                "🤲": {
+                    name: "¿Qué significa el emoji de las manos abiertas hacia arriba?",
+                    description: "Dos manos con las palmas hacia arriba, juntas como en posición de súplica o rezo. Representa petición, oración o disposición para recibir algo.",
+                    synonyms: [
+                        // Características físicas
+                        "palmas hacia arriba", "manos juntas", "gesto de súplica",
+                        "posición de rezo", "manos abiertas", "palmas unidas",
+                        // Estados emocionales
+                        "suplicante", "devoto", "esperanzado", "receptivo",
+                        "humilde", "espiritual", "respetuoso",
+                        // Regionalismos de España
+                        "manos en oración", "gesto de súplica", "postura de ruego",
+                        // Regionalismos de Latinoamérica
+                        "manos rezando", "gesto de petición", "posición de plegaria",
+                        // Términos coloquiales
+                        "manos suplicantes", "gesto de rezo", "postura de petición",
+                        "manos pidiendo", "gesto humilde",
+                        // Elementos visuales
+                        "emoji manos abiertas", "palmas hacia arriba", "gesto de oración"
+                    ]
+                },
+                "👐": {
+                    name: "¿Qué significa el emoji de las manos abiertas?",
+                    description: "Dos manos con las palmas abiertas y separadas. Representa apertura, sinceridad o disposición para dar y recibir.",
+                    synonyms: [
+                        // Características físicas
+                        "palmas extendidas", "manos separadas", "gesto abierto",
+                        "posición receptiva", "manos desplegadas", "palmas mostradas",
+                        // Estados emocionales
+                        "abierto", "sincero", "franco", "receptivo",
+                        "generoso", "transparente", "honesto",
+                        // Regionalismos de España
+                        "manos francas", "gesto de apertura", "postura sincera",
+                        // Regionalismos de Latinoamérica
+                        "manos abiertas", "gesto de honestidad", "posición de franqueza",
+                        // Términos coloquiales
+                        "a carta abierta", "sin nada que esconder", "con las manos abiertas",
+                        "sin tapujos", "con total sinceridad",
+                        // Elementos visuales
+                        "emoji manos abiertas", "palmas extendidas", "gesto de apertura"
+                    ]
+                },
+                "👏": {
+                    name: "¿Qué significa el emoji de las manos aplaudiendo?",
+                    description: "Dos manos en posición de aplauso. Representa aprobación, celebración, reconocimiento o ánimo hacia algo o alguien.",
+                    synonyms: [
+                        // Características físicas
+                        "palmas chocando", "manos aplaudiendo", "gesto de aplauso",
+                        "posición de celebración", "manos juntas", "palmas golpeando",
+                        // Estados emocionales
+                        "aprobador", "celebrativo", "entusiasta", "animado",
+                        "admirativo", "congratulatorio", "elogioso",
+                        // Regionalismos de España
+                        "dar palmas", "batir palmas", "ovacionar",
+                        // Regionalismos de Latinoamérica
+                        "aplaudir", "echar porras", "dar un aplauso",
+                        // Términos coloquiales
+                        "dar palmadas", "echar un aplauso", "palmotear",
+                        "dar un reconocimiento", "celebrar con palmas",
+                        // Elementos visuales
+                        "emoji aplausos", "manos aplaudiendo", "gesto de aprobación"
+                    ]
                 }
             }
         },
