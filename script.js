@@ -7,7 +7,7 @@ const emojiData = {
         },
         people: {
             title: "Emoticonos y personas",
-            emojis: ["😀", "😃", "😄", "😁", "😆", "😅", "😂", "🤣", "😊", "😇", "🙂", "🙃", "😉", "😌", "😍", "🥰", "😘", "😗", "😙", "😚", "😋", "😛", "😝", "😜", "🤪", "🤨", "🧐", "🤓", "😎", "🤩", "🥳", "😏", "😒", "😞", "😔", "😟", "😕", "🙁", "☹️", "😣", "😖", "😫", "😩", "🥺", "😢", "😭", "😤", "😠", "😡", "🤬", "🤯", "😳", "🥵", "🥶", "😱", "😨", "😰", "😥", "😓", "🤗", "🤔", "🤭", "🤫", "🤥", "😶", "😑", "😵", "😬", "🙄", "😮", "😲", "🥱", "😴", "🤤", "😪", "🤐", "🤢", "🤮", "🤧", "🥴", "😷", "🤒", "🤕", "🤑", "🤠", "😈", "👿", "👹"],
+            emojis: ["😀", "😃", "😄", "😁", "😆", "😅", "😂", "🤣", "😊", "😇", "🙂", "🙃", "😉", "😌", "😍", "🥰", "😘", "😗", "😙", "😚", "😋", "😛", "😝", "😜", "🤪", "🤨", "🧐", "🤓", "😎", "🤩", "🥳", "😏", "😒", "😞", "😔", "😟", "😕", "🙁", "☹️", "😣", "😖", "😫", "😩", "🥺", "😢", "😭", "😤", "😠", "😡", "🤬", "🤯", "😳", "🥵", "🥶", "😱", "😨", "😰", "😥", "😓", "🤗", "🤔", "🤭", "🤫", "🤥", "😶", "😑", "😵", "😬", "🙄", "😮", "😲", "🥱", "😴", "🤤", "😪", "🤐", "🤢", "🤮", "🤧", "🥴", "😷", "🤒", "🤕", "🤑", "🤠", "😈", "👿", "👹", "🤡", "💩", "👻", "💀", "☠️", "👽", "👾", "🤖", "🎃", "😺", "😸", "😹", "😻", "😼", "😽", "🙀", "😿", "😾", "🤲", "👐", "👏", "🤝", "👍", "👊", "✊", "🤛", "🤜", "🤞", "✌️", "🤟", "🤘"],
             keywords: {
                 "😀": {
                     name: "¿Qué significa el emoji de la cara sonriente?",
@@ -547,7 +547,7 @@ const emojiData = {
                         "ojos cerrados", "boca abierta", "cara agotada",
                         "expresión exhausta", "rostro cansado", "cara con fatiga",
                         "gesto de cansancio", "cara con sueño",
-                        // Estados físicos y emocionales
+                        // Estados emocionales
                         "cansado", "agotado", "exhausto", "fatigado", "rendido",
                         "extenuado", "desgastado", "reventado", "fundido",
                         // Regionalismos
@@ -661,7 +661,7 @@ const emojiData = {
                     description: "Una cara roja con cejas fruncidas y boca seria. Significa ira intensa o furia.",
                     synonyms: [
                         // Características físicas
-                        "cara roja", "cejas fruncidas", "ceño fruncido", 
+                        "cara roja", "ceñas fruncidas", "ceño fruncido", 
                         "cara enrojecida", "rostro rojo", "cara colorada",
                         "expresión furiosa", "cara enfadada roja",
                         // Estados emocionales
@@ -1817,6 +1817,216 @@ const emojiData = {
                         "dar un reconocimiento", "celebrar con palmas",
                         // Elementos visuales
                         "emoji aplausos", "manos aplaudiendo", "gesto de aprobación"
+                    ]
+                },
+                "🤝": {
+                    name: "¿Qué significa el emoji del apretón de manos?",
+                    description: "Dos manos estrechándose en un saludo formal. Representa acuerdo, trato cerrado, saludo cordial o reconciliación entre personas.",
+                    synonyms: [
+                        // Características físicas
+                        "manos estrechadas", "saludo formal", "manos unidas", 
+                        "palmas encontradas", "gesto de saludo", "manos entrelazadas",
+                        // Estados emocionales
+                        "cordial", "formal", "respetuoso", "diplomático",
+                        "conciliador", "profesional", "amistoso",
+                        // Regionalismos de España
+                        "dar la mano", "estrechar la mano", "cerrar un trato",
+                        // Regionalismos de Latinoamérica
+                        "saludar de mano", "dar un apretón", "sellar un acuerdo",
+                        // Términos coloquiales
+                        "pactar", "acordar", "hacer las paces", "llegar a un acuerdo",
+                        "cerrar negocio", "sellar compromiso",
+                        // Elementos visuales
+                        "emoji de acuerdo", "manos estrechándose", "gesto de negociación"
+                    ]
+                },
+                "👍": {
+                    name: "¿Qué significa el emoji del pulgar arriba?",
+                    description: "Una mano cerrada con el pulgar extendido hacia arriba. Representa aprobación, acuerdo, satisfacción o que algo está bien.",
+                    synonyms: [
+                        // Características físicas
+                        "pulgar levantado", "dedo pulgar hacia arriba", "mano con pulgar extendido",
+                        "puño con pulgar arriba", "gesto de aprobación", "pulgar erguido",
+                        // Estados emocionales
+                        "aprobador", "positivo", "afirmativo", "satisfecho",
+                        "complacido", "conforme", "de acuerdo",
+                        // Regionalismos de España
+                        "dar visto bueno", "mostrar conformidad", "aprobar",
+                        // Regionalismos de Latinoamérica
+                        "dar like", "aprobar", "estar de acuerdo", "dar el visto bueno",
+                        // Términos coloquiales
+                        "ok", "todo bien", "perfecto", "dale", "va", 
+                        "chévere", "guay", "genial",
+                        // Elementos visuales
+                        "emoji de aprobación", "pulgar arriba", "like"
+                    ]
+                },
+                "👊": {
+                    name: "¿Qué significa el emoji del puño cerrado?",
+                    description: "Un puño cerrado orientado hacia el frente. Representa determinación, solidaridad, puñetazo amistoso o choque de puños como saludo informal.",
+                    synonyms: [
+                        // Características físicas
+                        "puño cerrado", "mano empuñada", "puño frontal",
+                        "mano cerrada", "nudillos", "puño compacto",
+                        // Estados emocionales
+                        "determinado", "firme", "decidido", "solidario",
+                        "enérgico", "resuelto", "fuerte",
+                        // Regionalismos de España
+                        "dar un toque", "chocar puños", "puñetazo amistoso",
+                        // Regionalismos de Latinoamérica
+                        "puño", "golpe de puño", "fist bump", "choque de puños",
+                        // Términos coloquiales
+                        "dame esos cinco", "chócala", "puñito", "toque de puños",
+                        "saludo de puño", "golpe de nudillos",
+                        // Elementos visuales
+                        "emoji de puño", "puño cerrado", "gesto de fuerza"
+                    ]
+                },
+                "✊": {
+                    name: "¿Qué significa el emoji del puño en alto?",
+                    description: "Un puño cerrado levantado hacia arriba. Representa solidaridad, resistencia, lucha por una causa, determinación o protesta.",
+                    synonyms: [
+                        // Características físicas
+                        "puño levantado", "puño alzado", "mano empuñada en alto",
+                        "puño erguido", "puño elevado", "mano cerrada en alto",
+                        // Estados emocionales
+                        "solidario", "resistente", "luchador", "reivindicativo",
+                        "combativo", "determinado", "activista",
+                        // Regionalismos de España
+                        "alzar el puño", "levantar el puño", "mostrar resistencia",
+                        // Regionalismos de Latinoamérica
+                        "puño en alto", "símbolo de lucha", "gesto de resistencia",
+                        // Términos coloquiales
+                        "no rendirse", "seguir adelante", "luchar por algo",
+                        "resistir", "mantenerse firme", "defender una causa",
+                        // Elementos visuales
+                        "emoji de resistencia", "puño alzado", "símbolo de lucha"
+                    ]
+                },
+                "🤛": {
+                    name: "¿Qué significa el emoji del puño hacia la izquierda?",
+                    description: "Un puño cerrado orientado hacia la izquierda. Representa un saludo informal, choque de puños o gesto de apoyo entre personas.",
+                    synonyms: [
+                        // Características físicas
+                        "puño lateral", "puño hacia la izquierda", "mano empuñada lateral",
+                        "puño orientado a la izquierda", "puño de lado", "mano cerrada lateral",
+                        // Estados emocionales
+                        "amistoso", "informal", "cercano", "cómplice",
+                        "casual", "relajado", "compañero",
+                        // Regionalismos de España
+                        "chocar los puños", "dar un toque", "saludo de colegas",
+                        // Regionalismos de Latinoamérica
+                        "puño chocado", "toque de puños", "saludo de amigos",
+                        // Términos coloquiales
+                        "bump", "chócala", "puñito", "toque de puños",
+                        "saludo informal", "puñito",
+                        // Elementos visuales
+                        "emoji de saludo", "puño izquierdo", "gesto de choque"
+                    ]
+                },
+                "🤜": {
+                    name: "¿Qué significa el emoji del puño hacia la derecha?",
+                    description: "Un puño cerrado orientado hacia la derecha. Representa un saludo informal, choque de puños o complemento al emoji de puño izquierdo.",
+                    synonyms: [
+                        // Características físicas
+                        "puño lateral", "puño hacia la derecha", "mano empuñada lateral",
+                        "puño orientado a la derecha", "puño de lado", "mano cerrada lateral",
+                        // Estados emocionales
+                        "amistoso", "informal", "cercano", "cómplice",
+                        "casual", "relajado", "compañero",
+                        // Regionalismos de España
+                        "chocar los puños", "dar un toque", "saludo de colegas",
+                        // Regionalismos de Latinoamérica
+                        "puño chocado", "toque de puños", "saludo de amigos",
+                        // Términos coloquiales
+                        "bump", "chócala", "puñito", "toque de puños",
+                        "saludo informal", "puñito",
+                        // Elementos visuales
+                        "emoji de saludo", "puño derecho", "gesto de choque"
+                    ]
+                },
+                "🤞": {
+                    name: "¿Qué significa el emoji de los dedos cruzados?",
+                    description: "Una mano con los dedos índice y medio cruzados. Representa deseo de buena suerte, esperanza o también puede indicar una promesa o mentira piadosa.",
+                    synonyms: [
+                        // Características físicas
+                        "dedos cruzados", "índice y medio cruzados", "dedos entrelazados",
+                        "gesto de cruzar dedos", "dedos superpuestos", "dedos en cruz",
+                        // Estados emocionales
+                        "esperanzado", "supersticioso", "deseoso", "expectante",
+                        "ilusionado", "optimista", "confiado",
+                        // Regionalismos de España
+                        "cruzar los dedos", "pedir suerte", "confiar en la suerte",
+                        // Regionalismos de Latinoamérica
+                        "deditos cruzados", "para la buena suerte", "que se cumpla",
+                        // Términos coloquiales
+                        "ojalá", "que haya suerte", "a ver si cuela", "con esperanza",
+                        "que salga bien", "dedos cruzados para la suerte",
+                        // Elementos visuales
+                        "emoji de suerte", "dedos cruzados", "símbolo de esperanza"
+                    ]
+                },
+                "✌️": {
+                    name: "¿Qué significa el emoji de señal de victoria/paz?",
+                    description: "Una mano formando una V con los dedos índice y medio extendidos. Representa victoria, paz, o puede usarse como gesto al tomarse una foto.",
+                    synonyms: [
+                        // Características físicas
+                        "dedos en V", "índice y medio extendidos", "gesto de victoria",
+                        "mano en V", "signo de la paz", "dedos separados en V",
+                        // Estados emocionales
+                        "victorioso", "pacífico", "triunfante", "optimista",
+                        "alegre", "conciliador", "amistoso",
+                        // Regionalismos de España
+                        "hacer la V", "signo de victoria", "gesto de paz",
+                        // Regionalismos de Latinoamérica
+                        "hacer la V", "señal de la victoria", "gesto para fotos",
+                        // Términos coloquiales
+                        "peace", "victoria", "todo bien", "paz y amor",
+                        "pose para foto", "V de victoria",
+                        // Elementos visuales
+                        "emoji de paz", "señal de victoria", "dedos en V"
+                    ]
+                },
+                "🤟": {
+                    name: "¿Qué significa el emoji de cuernos y pulgar extendido?",
+                    description: "Una mano con los dedos índice, meñique y pulgar extendidos. Representa 'te amo' en lenguaje de señas, aunque también se asocia con el gesto rockero.",
+                    synonyms: [
+                        // Características físicas
+                        "índice, meñique y pulgar extendidos", "gesto de amor en señas", "mano ILY",
+                        "dedos en I Love You", "gesto de lenguaje de señas", "mano con tres dedos",
+                        // Estados emocionales
+                        "amoroso", "cariñoso", "expresivo", "afectuoso",
+                        "cercano", "íntimo", "sentimental",
+                        // Regionalismos de España
+                        "te quiero en señas", "gesto de amor", "señal de cariño",
+                        // Regionalismos de Latinoamérica
+                        "te amo en señas", "lenguaje de señas", "gesto de amor",
+                        // Términos coloquiales
+                        "I love you", "te amo", "gesto de amor", "señal de cariño",
+                        "amor en señas", "ILY",
+                        // Elementos visuales
+                        "emoji de amor en señas", "gesto ILY", "símbolo de amor"
+                    ]
+                },
+                "🤘": {
+                    name: "¿Qué significa el emoji de cuernos/rock?",
+                    description: "Una mano con los dedos índice y meñique extendidos, formando el signo de los cuernos. Representa el gesto típico del rock, rebeldía o para alejar el mal de ojo.",
+                    synonyms: [
+                        // Características físicas
+                        "dedos en cuernos", "índice y meñique extendidos", "mano cornuta",
+                        "gesto de metal", "signo de los cuernos", "mano rockera",
+                        // Estados emocionales
+                        "rockero", "rebelde", "entusiasta", "energético",
+                        "apasionado", "intenso", "festivo",
+                        // Regionalismos de España
+                        "cuernos", "mano rockera", "gesto heavy", "signo del metal",
+                        // Regionalismos de Latinoamérica
+                        "mano cornuda", "cuernos del diablo", "gesto rockero", "mano metalera",
+                        // Términos coloquiales
+                        "rock on", "metal", "rock and roll", "heavy",
+                        "mano metalera", "cuernos rockeros",
+                        // Elementos visuales
+                        "emoji rockero", "signo de cuernos", "gesto de metal"
                     ]
                 }
             }
